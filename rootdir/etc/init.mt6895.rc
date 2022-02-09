@@ -10,11 +10,8 @@ on property:persist.sys.parts.gpu.governor=*
 on property:persist.sys.parts.gpu.max_frequency=*
     write /sys/devices/platform/13000000.mali/devfreq/13000000.mali/max_freq ${persist.sys.parts.gpu.max_frequency}
 
-on property:persist.sys.MT6895.dt2w=0
-    exec /system/bin/sendevent /dev/input/event5 0 1 4
-
-on property:persist.sys.MT6895.dt2w=1
-    exec /system/bin/sendevent /dev/input/event5 0 1 5
+on property:persist.sys.MT6895.dt2w=*
+    exec /system/bin/xiaomi-touch 14 ${persist.sys.MT6895.dt2w}
 
 service set_permissive /system/bin/set_permissive.sh
     class main
