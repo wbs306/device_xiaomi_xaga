@@ -72,9 +72,9 @@
     <!-- Refresh Rate tile -->
     <string name="refresh_rate_tile_title">Refresh Rate</string>
     
-    <!-- Refresh rate  -->
-    <string name="refresh_title">Refresh Rate per-app</string>
-    <string name="refresh_summary">Set the maximum refresh rate for a specific application</string>
+    <!-- Refresh Rate per-app -->
+    <string name="refresh_title">Refresh rate per-app</string>
+    <string name="refresh_summary">Set a specific refresh rate for each application</string>
     <string name="refresh_default">Default</string>
     <string name="refresh_low">Low (30Hz)</string>
     <string name="refresh_moderate">Moderate (50Hz)</string>
