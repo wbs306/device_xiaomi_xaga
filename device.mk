@@ -10,6 +10,10 @@ $(call inherit-product, device/xiaomi/mt6895-common/mt6895-common.mk)
 # Inherit the proprietary files
 $(call inherit-product, vendor/xiaomi/xaga/xaga-vendor.mk)
 
+# FM Radio
+PRODUCT_PACKAGES += \
+    MtkFMRadio
+
 # Input
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/idc/uinput-fpc.idc:$(TARGET_COPY_OUT_SYSTEM)/usr/idc/uinput-fpc.idc \

@@ -17,4 +17,10 @@
    "remote"      : "github",
    "branch"      : "12.1"
  },
+ {
+   "repository"  : "begonia-dev/android_packages_apps_MtkFMRadio",
+   "target_path" : "packages/apps/MtkFMRadio",
+   "remote"      : "github",
+   "branch"      : "12.1"
+ },
 ]
