@@ -55,7 +55,7 @@ fi
 
 function blob_fixup() {
     case "${1}" in
-        lib/libsink.so)
+        lib64/libsink.so)
             "${PATCHELF}" --add-needed "libshim_vtservice.so" "${2}"
             ;;
     esac
