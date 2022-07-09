@@ -78,6 +78,15 @@ PRODUCT_PACKAGES += \
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/permissions/privapp-permissions-mediatek.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/privapp-permissions-mediatek.xml
 
+# Keymaster
+PRODUCT_PACKAGES += \
+    libkeymaster4.vendor \
+    libkeymaster4support.vendor \
+    libkeymaster_portable.vendor \
+    libkeymaster_messages.vendor \
+    libsoft_attestation_cert.vendor \
+    libpuresoftkeymasterdevice.vendor
+
 # MTK plpath utils
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/prebuilts/mtk_plpath_utils:$(TARGET_COPY_OUT_SYSTEM)/bin/mtk_plpath_utils \
@@ -103,8 +112,54 @@ PRODUCT_COPY_FILES += \
 
 # Rootdir
 PRODUCT_PACKAGES += \
+    capture.sh \
+    capture_headsetmic.sh \
+    headset_detect.sh \
+    init.insmod.sh \
+    init.ram.sh \
+    init.taskset.sh \
+    playback.sh \
+    playback_1k.sh \
+    playback_headset.sh \
+    set_permissive.sh \
+    setup_backmic2headphone.sh \
+    setup_headsetmic2headphone.sh \
+    setup_headsetmic2rcv.sh \
+    setup_mainmic2headphone.sh \
+    setup_rcv2backmic.sh \
+    setup_rcv2mainmic.sh \
+    setup_rcv2topmic.sh \
+    setup_topmic2headphone.sh \
+    teardown_loopback.sh \
+    vow_restart.sh \
+
+PRODUCT_PACKAGES += \
+    fstab.mt6895 \
+    factory_init.connectivity.common.rc \
+    factory_init.connectivity.rc \
+    factory_init.project.rc \
+    factory_init.rc \
+    init.aee.rc \
+    init.batterysecret.rc \
+    init.cgroup.rc \
+    init.charge_logger.rc \
+    init.connectivity.common.rc \
+    init.connectivity.rc \
+    init.mi_thermald.rc \
+    init.modem.rc \
     init.mt6895.rc \
-    set_permissive.sh
+    init.mt6895.usb.rc \
+    init.mtkgki.rc \
+    init.project.rc \
+    init.sensor_2_0.rc \
+    init_conninfra.rc \
+    meta_init.connectivity.common.rc \
+    meta_init.connectivity.rc \
+    meta_init.modem.rc \
+    meta_init.project.rc \
+    meta_init.rc \
+    multi_init.rc \
+    set_permissive.rc
 
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/rootdir/etc/fstab.mt6895:recovery/root/first_stage_ramdisk/fstab.mt6895

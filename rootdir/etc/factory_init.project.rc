@@ -1,0 +1,27 @@
+import /vendor/etc/init/hw/init.mtkgki.rc
+
+mkdir /data/misc/sensors 0664 system system
+
+service msensord /system/bin/msensord
+    user system
+    group system
+    oneshot
+
+service akmd8963 /system/bin/akmd8963
+    disabled
+    user system
+    group system
+
+
+on post-fs
+    # disable HPS
+    write /proc/hps/enabled 0
+
+
+    chmod 0660 /dev/spm
+    chown system system /dev/spm
+
+service spm_script /vendor/bin/spm_loader
+    user system
+    group system
+    oneshot

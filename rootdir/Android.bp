@@ -4,13 +4,305 @@
 // SPDX-License-Identifier: Apache-2.0
 //
 
+// Init scripts
+sh_binary {
+    name: "capture.sh",
+    src: "bin/capture.sh",
+    vendor: true,
+}
+
+sh_binary {
+    name: "capture_headsetmic.sh",
+    src: "bin/capture_headsetmic.sh",
+    vendor: true,
+}
+
+sh_binary {
+    name: "headset_detect.sh",
+    src: "bin/headset_detect.sh",
+    vendor: true,
+}
+
+sh_binary {
+    name: "init.insmod.sh",
+    src: "bin/init.insmod.sh",
+    vendor: true,
+}
+
+sh_binary {
+    name: "init.ram.sh",
+    src: "bin/init.ram.sh",
+    vendor: true,
+}
+
+sh_binary {
+    name: "init.taskset.sh",
+    src: "bin/init.taskset.sh",
+    vendor: true,
+}
+
+sh_binary {
+    name: "playback.sh",
+    src: "bin/playback.sh",
+    vendor: true,
+}
+
+sh_binary {
+    name: "playback_1k.sh",
+    src: "bin/playback_1k.sh",
+    vendor: true,
+}
+
+sh_binary {
+    name: "playback_headset.sh",
+    src: "bin/playback_headset.sh",
+    vendor: true,
+}
+
 sh_binary {
     name: "set_permissive.sh",
-    src: "bin/set_permissive.sh"
+    src: "bin/set_permissive.sh",
+    vendor: true,
+}
+
+sh_binary {
+    name: "setup_backmic2headphone.sh",
+    src: "bin/setup_backmic2headphone.sh",
+    vendor: true,
+}
+
+sh_binary {
+    name: "setup_headsetmic2headphone.sh",
+    src: "bin/setup_headsetmic2headphone.sh",
+    vendor: true,
+}
+
+sh_binary {
+    name: "setup_headsetmic2rcv.sh",
+    src: "bin/setup_headsetmic2rcv.sh",
+    vendor: true,
+}
+
+sh_binary {
+    name: "setup_mainmic2headphone.sh",
+    src: "bin/setup_mainmic2headphone.sh",
+    vendor: true,
+}
+
+sh_binary {
+    name: "setup_rcv2backmic.sh",
+    src: "bin/setup_rcv2backmic.sh",
+    vendor: true,
+}
+
+sh_binary {
+    name: "setup_rcv2mainmic.sh",
+    src: "bin/setup_rcv2mainmic.sh",
+    vendor: true,
+}
+
+sh_binary {
+    name: "setup_rcv2topmic.sh",
+    src: "bin/setup_rcv2topmic.sh",
+    vendor: true,
+}
+
+sh_binary {
+    name: "setup_topmic2headphone.sh",
+    src: "bin/setup_topmic2headphone.sh",
+    vendor: true,
+}
+
+sh_binary {
+    name: "teardown_loopback.sh",
+    src: "bin/teardown_loopback.sh",
+    vendor: true,
+}
+
+sh_binary {
+    name: "vow_restart.sh",
+    src: "bin/vow_restart.sh",
+    vendor: true,
+}
+
+// Init configuration files
+prebuilt_etc {
+    name: "factory_init.connectivity.common.rc",
+    src: "etc/factory_init.connectivity.common.rc",
+    sub_dir: "init/hw",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "factory_init.connectivity.rc",
+    src: "etc/factory_init.connectivity.rc",
+    sub_dir: "init/hw",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "factory_init.project.rc",
+    src: "etc/factory_init.project.rc",
+    sub_dir: "init/hw",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "factory_init.rc",
+    src: "etc/factory_init.rc",
+    sub_dir: "init/hw",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "init.aee.rc",
+    src: "etc/init.aee.rc",
+    sub_dir: "init/hw",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "init.batterysecret.rc",
+    src: "etc/init.batterysecret.rc",
+    sub_dir: "init/hw",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "init.cgroup.rc",
+    src: "etc/init.cgroup.rc",
+    sub_dir: "init/hw",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "init.charge_logger.rc",
+    src: "etc/init.charge_logger.rc",
+    sub_dir: "init/hw",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "init.connectivity.common.rc",
+    src: "etc/init.connectivity.common.rc",
+    sub_dir: "init/hw",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "init.connectivity.rc",
+    src: "etc/init.connectivity.rc",
+    sub_dir: "init/hw",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "init.mi_thermald.rc",
+    src: "etc/init.mi_thermald.rc",
+    sub_dir: "init/hw",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "init.modem.rc",
+    src: "etc/init.modem.rc",
+    sub_dir: "init/hw",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "init.mt6895.rc",
+    src: "etc/init.mt6895.rc",
+    sub_dir: "init/hw",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "init.mt6895.usb.rc",
+    src: "etc/init.mt6895.usb.rc",
+    sub_dir: "init/hw",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "init.mtkgki.rc",
+    src: "etc/init.mtkgki.rc",
+    sub_dir: "init/hw",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "init.project.rc",
+    src: "etc/init.project.rc",
+    sub_dir: "init/hw",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "init.sensor_2_0.rc",
+    src: "etc/init.sensor_2_0.rc",
+    sub_dir: "init/hw",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "init_conninfra.rc",
+    src: "etc/init_conninfra.rc",
+    sub_dir: "init/hw",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "meta_init.connectivity.common.rc",
+    src: "etc/meta_init.connectivity.common.rc",
+    sub_dir: "init/hw",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "meta_init.connectivity.rc",
+    src: "etc/meta_init.connectivity.rc",
+    sub_dir: "init/hw",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "meta_init.modem.rc",
+    src: "etc/meta_init.modem.rc",
+    sub_dir: "init/hw",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "meta_init.project.rc",
+    src: "etc/meta_init.project.rc",
+    sub_dir: "init/hw",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "meta_init.rc",
+    src: "etc/meta_init.rc",
+    sub_dir: "init/hw",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "multi_init.rc",
+    src: "etc/multi_init.rc",
+    sub_dir: "init/hw",
+    vendor: true,
 }
 
 prebuilt_etc {
     name: "fstab.mt6895",
     src: "etc/fstab.mt6895",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "set_permissive.rc",
+    src: "etc/set_permissive.rc",
+    sub_dir: "init/hw",
     vendor: true,
 }
