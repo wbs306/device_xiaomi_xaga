@@ -5,6 +5,10 @@ etc/apns-conf.xml
 etc/fiveG-apns-conf.xml
 etc/xcap-apns-conf.xml
 
+# Bluetooth
+lib64/libaptX_encoder.so
+lib64/libaptXHD_encoder.so
+
 # MTK-IMS
 bin/vtservice
 etc/init/init.vtservice.rc
