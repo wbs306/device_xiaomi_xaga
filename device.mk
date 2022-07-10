@@ -76,6 +76,7 @@ PRODUCT_COPY_FILES += \
 
 # Boot control HAL
 PRODUCT_PACKAGES += \
+    bootctrl.default \
     android.hardware.boot@1.2-impl \
     android.hardware.boot@1.2-service \
     android.hardware.boot@1.2-impl.recovery \
