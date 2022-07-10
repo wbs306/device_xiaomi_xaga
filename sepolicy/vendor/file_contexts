@@ -1,0 +1,3 @@
+# Misc block device
+/dev/block/by-name/misc      u:object_r:misc_block_device:s0
+/dev/block/by-name/misc2      u:object_r:misc_block_device:s0
