@@ -81,8 +81,6 @@ PRODUCT_COPY_FILES += \
 
 # Keymaster
 PRODUCT_PACKAGES += \
-    libkeymaster4.vendor \
-    libkeymaster4support.vendor \
     libkeymaster_portable.vendor \
     libkeymaster_messages.vendor \
     libsoft_attestation_cert.vendor \
