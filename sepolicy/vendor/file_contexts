@@ -1,3 +1,6 @@
 # Misc block device
 /dev/block/by-name/misc      u:object_r:misc_block_device:s0
 /dev/block/by-name/misc2      u:object_r:misc_block_device:s0
+
+# NXP NFC
+/(vendor|system/vendor)/bin/hw/vendor\.nxp\.hardware\.nfc@2\.0-service		u:object_r:vendor_hal_nfc_default_exec:s0
