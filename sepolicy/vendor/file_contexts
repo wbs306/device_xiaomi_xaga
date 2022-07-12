@@ -1,3 +1,6 @@
+# AEE
+/(vendor|system\/vendor)/bin/aee_aedv64_v2 u:object_r:aee_aedv_exec:s0
+
 # Misc block device
 /dev/block/by-name/misc      u:object_r:misc_block_device:s0
 /dev/block/by-name/misc2      u:object_r:misc_block_device:s0
