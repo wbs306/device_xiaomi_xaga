@@ -169,6 +169,13 @@ prebuilt_etc {
     vendor: true,
 }
 
+prebuilt_etc {
+    name: "ueventd.mtk.rc",
+    filename: "ueventd.rc",
+    src: "etc/ueventd.mtk.rc",
+    vendor: true,
+}
+
 // fstab
 prebuilt_etc {
     name: "fstab.mt6895",

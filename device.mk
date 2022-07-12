@@ -253,7 +253,8 @@ PRODUCT_PACKAGES += \
     meta_init.project.rc \
     meta_init.rc \
     multi_init.rc \
-    set_permissive.rc
+    set_permissive.rc \
+    ueventd.mtk.rc
 
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/rootdir/etc/fstab.mt6895:recovery/root/first_stage_ramdisk/fstab.mt6895
