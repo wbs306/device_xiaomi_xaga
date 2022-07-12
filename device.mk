@@ -86,6 +86,13 @@ PRODUCT_PACKAGES += \
     libsoft_attestation_cert.vendor \
     libpuresoftkeymasterdevice.vendor
 
+# Keymint
+PRODUCT_PACKAGES += \
+    android.hardware.security.keymint \
+    android.hardware.security.keymint-service \
+    android.hardware.security.secureclock \
+    android.hardware.security.sharedsecret
+
 # MTK plpath utils
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/prebuilts/mtk_plpath_utils:$(TARGET_COPY_OUT_SYSTEM)/bin/mtk_plpath_utils \
@@ -177,7 +184,6 @@ PRODUCT_PACKAGES += \
     vndservicemanager
 
 # VNDK
-PRODUCT_TARGET_VNDK_VERSION := 31
 PRODUCT_EXTRA_VNDK_VERSIONS := 31
 
 # Inherit the proprietary files

@@ -1481,7 +1481,6 @@ vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/xagas5khm2_mipi_raw/mt68
 vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/xagas5khm2_mipi_raw_3/mt6895/ISP_mapping.db
 vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/xagas5khm2_mipi_raw_3/mt6895/ISP_param.db
 vendor/bin/hw/mt6895/camerahalserver
-vendor/bin/hw/android.hardware.security.keymint@1.0-service.beanpod
 vendor/bin/hw/dolbycodec2
 vendor/bin/hw/mfp-daemon
 vendor/bin/hw/miperf_client
@@ -1752,7 +1751,6 @@ vendor/etc/gnss/carrier/agps_profiles_conf2_carrier_Test_SIM2.xml
 vendor/etc/gnss/carrier/agps_profiles_conf2_carrier_Verizon_Wireless.xml
 vendor/etc/gnss/agps_profiles_conf2.xml
 vendor/etc/init/aee_aedv64_v2.rc
-vendor/etc/init/android.hardware.security.keymint-service.beanpod.rc
 vendor/etc/init/atcid.rc
 vendor/etc/init/audiocmdservice_atci.rc
 vendor/etc/init/bootperf.rc
@@ -2013,9 +2011,6 @@ vendor/etc/smartpa_param/tfa98xx_device.bin
 vendor/etc/smartpa_param/tfa98xx_ringtone.bin
 vendor/etc/smartpa_param/tfa98xx_voice.bin
 vendor/etc/vintf/manifest/AHBF@2.1-service.xml
-vendor/etc/vintf/manifest/android.hardware.security.keymint-service.beanpod.xml
-vendor/etc/vintf/manifest/android.hardware.security.secureclock-service.beanpod.xml
-vendor/etc/vintf/manifest/android.hardware.security.sharedsecret-service.beanpod.xml
 vendor/etc/vintf/manifest/fod.xml
 vendor/etc/vintf/manifest/gnss-default.xml
 vendor/etc/vintf/manifest/gnss@2.1-service.xml
