@@ -37,6 +37,27 @@ PRODUCT_PACKAGES += \
     checkpoint_gc \
     otapreopt_script
 
+# Audio
+PRODUCT_PACKAGES += \
+    android.hardware.audio.common-util \
+    android.hardware.audio@7.0-impl \
+    android.hardware.audio@4.0-util \
+    android.hardware.audio@5.0-util \
+    android.hardware.audio@6.0-util \
+    android.hardware.audio@7.0-util \
+    android.hardware.audio.effect@4.0-util \
+    android.hardware.audio.effect@5.0-util \
+    android.hardware.audio.effect@6.0-util \
+    android.hardware.audio.effect@7.0-util \
+    libaudio-resampler \
+    libaudioprocessing \
+    libaudiospdif
+
+PRODUCT_PACKAGES += \
+    android.hardware.soundtrigger@2.0 \
+    android.hardware.soundtrigger@2.1 \
+    android.hardware.soundtrigger@2.2
+
 # Boot control HAL
 PRODUCT_PACKAGES += \
     android.hardware.boot@1.2-impl \
@@ -59,6 +80,7 @@ PRODUCT_PACKAGES += \
     android.hidl.allocator@1.0 \
     android.hidl.base@1.0 \
     android.hidl.manager@1.0 \
+    android.hidl.memory.block@1.0 \
     libhidltransport \
     libhwbinder 
 
@@ -85,6 +107,15 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/prebuilts/mtk_plpath_utils:recovery/root/system/bin/mtk_plpath_utils \
     $(LOCAL_PATH)/prebuilts/mtk-plpath-utils.rc:recovery/root/system/etc/init/mtk-plpath-utils.rc
 
+# NFC
+PRODUCT_PACKAGES += \
+    android.hardware.nfc@1.2-service \
+    com.android.nfc_extras \
+    libchrome.vendor \
+    NfcNci \
+    SecureElement \
+    Tag
+
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay \
@@ -100,6 +131,12 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_COPY_FILES += \
     $(call find-copy-subdir-files,*,$(LOCAL_PATH)/prebuilts/firmware/,recovery/root/vendor/firmware)
+
+# RIL
+PRODUCT_PACKAGES += \
+    android.hardware.radio@1.6 \
+    android.hardware.radio.config@1.3 \
+    android.hardware.secure_element@1.2
 
 # Rootdir
 PRODUCT_PACKAGES += \
