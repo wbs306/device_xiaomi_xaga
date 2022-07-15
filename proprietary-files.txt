@@ -5,9 +5,77 @@ etc/apns-conf.xml
 etc/fiveG-apns-conf.xml
 etc/xcap-apns-conf.xml
 
+# Audio
+bin/audio_set_params
+bin/AudioSetParam
+lib/libaudio_param_parser-sys.so
+lib/libaudiocomponentengine.so
+lib/libaudioflinger.so
+lib/libaudioutilmtk.so
+lib/libbessound_hd_mtk.so
+lib64/libaudio_param_parser-sys.so
+lib64/libaudiocomponentengine.so
+lib64/libaudiopolicycustomextensions.so
+lib64/libaudiopolicyengineconfigurable.so
+lib64/libaudioutilmtk.so
+lib64/libbessound_hd_mtk.so
+system_ext/lib/vendor.mediatek.hardware.audio@7.1.so
+system_ext/lib64/libaudiotoolkit.so
+system_ext/lib64/vendor.mediatek.hardware.audio@7.1.so
+
 # Bluetooth
+etc/bluetooth/bt_did.conf
+etc/bluetooth/mtk_bt_fw.conf
+etc/bluetooth/mtk_bt_stack.conf
+lib/bleaudio.so
+lib/blecg.so
+lib64/bleaudio.so
+lib64/blecg.so
 lib64/libaptX_encoder.so
 lib64/libaptXHD_encoder.so
+system_ext/lib/vendor.mediatek.hardware.bluetooth.audio@2.1.so
+system_ext/lib/vendor.mediatek.hardware.bluetooth.audio@2.2.so
+system_ext/lib64/vendor.mediatek.hardware.bluetooth.audio@2.1.so
+system_ext/lib64/vendor.mediatek.hardware.bluetooth.audio@2.2.so
+
+# Camera
+lib/vendor.mediatek.hardware.camera.isphal@1.0.so
+
+# CCCI
+lib64/libccci_util_sys.so
+
+# DMC
+lib64/vendor.mediatek.hardware.dmc@1.0.so
+system_ext/lib64/vendor.mediatek.hardware.dmc@1.1.so
+system_ext/lib64/vendor.mediatek.hardware.dmc@1.2.so
+
+# Dolby
+lib/vendor.dolby.hardware.dms@2.0.so
+lib64/vendor.dolby.hardware.dms@2.0.so
+
+# DuraSpeed
+etc/init/duraspeed.rc
+framework/duraspeed.jar
+
+# Extractor
+lib64/extractors/libmtkadpcmextractor.so
+lib64/extractors/libmtkapeextractor.so
+lib64/extractors/libmtkaviextractor.so
+lib64/extractors/libmtkmp3extractor.so
+lib64/extractors/libmtkalacextractor.so
+lib64/extractors/libmtkasfextractor.so
+lib64/extractors/libmtkflvextractor.so
+lib64/extractors/libmtkmpeg2extractor.so
+
+# MMS
+lib/vendor.mediatek.hardware.mms@1.0.so
+lib/vendor.mediatek.hardware.mms@1.1.so
+lib/vendor.mediatek.hardware.mms@1.2.so
+lib/vendor.mediatek.hardware.mms@1.3.so
+lib64/vendor.mediatek.hardware.mms@1.0.so
+lib64/vendor.mediatek.hardware.mms@1.1.so
+lib64/vendor.mediatek.hardware.mms@1.2.so
+lib64/vendor.mediatek.hardware.mms@1.3.so
 
 # MTK-IMS
 bin/vtservice
@@ -46,3 +114,65 @@ lib64/libsysenv_system.so
 -priv-app/ImsService/ImsService.apk
 system_ext/lib/vendor.mediatek.hardware.videotelephony@1.0.so
 system_ext/lib64/vendor.mediatek.hardware.videotelephony@1.0.so
+
+# SPN
+etc/apns-conf.xml
+etc/fiveG-apns-conf.xml
+etc/spn-conf.xml
+etc/xcap-apns-conf.xml
+
+# TER Service
+bin/terservice
+etc/init/terserver.rc
+lib64/libterservice.so
+
+system_ext/lib/libapuwareapusys.mtk.so
+system_ext/lib/libapuwareapusys_v2.mtk.so
+system_ext/lib/libapuwarehmp.mtk.so
+system_ext/lib/libapuwareutils.mtk.so
+system_ext/lib/libapuwareutils_v2.mtk.so
+system_ext/lib/libapuwarexrp.mtk.so
+system_ext/lib/libapuwarexrp_v2.mtk.so
+system_ext/lib/libarmnn_ndk.mtk.so
+
+system_ext/lib/libcmdl_ndk.mtk.so
+
+system_ext/lib/libdrmmtkutil.so
+system_ext/lib/libdrmmtkwhitelist.so
+
+system_ext/lib/libsn100nfc_nci_jni-v1.so
+system_ext/lib/libsn100nfc-nci-v1.so
+
+system_ext/lib/vendor.mediatek.hardware.apuware.apusys@1.0.so
+system_ext/lib/vendor.mediatek.hardware.apuware.apusys@2.0.so
+system_ext/lib/vendor.mediatek.hardware.apuware.apusys@2.1.so
+system_ext/lib/vendor.mediatek.hardware.apuware.hmp@1.0.so
+system_ext/lib/vendor.mediatek.hardware.apuware.utils@1.0.so
+system_ext/lib/vendor.mediatek.hardware.apuware.utils@2.0.so
+system_ext/lib/vendor.mediatek.hardware.apuware.xrp@1.0.so
+system_ext/lib/vendor.mediatek.hardware.apuware.xrp@2.0.so
+
+system_ext/lib/vendor.mediatek.hardware.mtkradioex@3.0.so
+
+system_ext/lib64/libapuwareapusys.mtk.so
+system_ext/lib64/libapuwareapusys_v2.mtk.so
+system_ext/lib64/libapuwarehmp.mtk.so
+system_ext/lib64/libapuwareutils.mtk.so
+system_ext/lib64/libapuwareutils_v2.mtk.so
+system_ext/lib64/libapuwarexrp.mtk.so
+system_ext/lib64/libapuwarexrp_v2.mtk.so
+system_ext/lib64/libarmnn_ndk.mtk.so
+system_ext/lib64/libcmdl_ndk.mtk.so
+system_ext/lib64/libdrmmtkutil.so
+system_ext/lib64/libdrmmtkwhitelist.so
+system_ext/lib64/libsn100nfc_nci_jni-v1.so
+system_ext/lib64/libsn100nfc-nci-v1.so
+system_ext/lib64/vendor.mediatek.hardware.apuware.apusys@1.0.so
+system_ext/lib64/vendor.mediatek.hardware.apuware.apusys@2.0.so
+system_ext/lib64/vendor.mediatek.hardware.apuware.apusys@2.1.so
+system_ext/lib64/vendor.mediatek.hardware.apuware.hmp@1.0.so
+system_ext/lib64/vendor.mediatek.hardware.apuware.utils@1.0.so
+system_ext/lib64/vendor.mediatek.hardware.apuware.utils@2.0.so
+system_ext/lib64/vendor.mediatek.hardware.apuware.xrp@1.0.so
+system_ext/lib64/vendor.mediatek.hardware.apuware.xrp@2.0.so
+system_ext/lib64/vendor.mediatek.hardware.mtkradioex@3.0.so
