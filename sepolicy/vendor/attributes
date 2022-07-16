@@ -1,0 +1,4 @@
+# OTrP Agent HAL
+attribute hal_otrpagent;
+attribute hal_otrpagent_client;
+attribute hal_otrpagent_server;

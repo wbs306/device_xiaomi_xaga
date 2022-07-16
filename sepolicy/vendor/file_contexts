@@ -92,6 +92,9 @@
 # OTrP
 /data/vendor/otrp(/.*)?       u:object_r:otrp_data_file:s0
 
+# OTrP Agent
+/(vendor|system/vendor)/bin/vendor\.xiaomi\.hardware\.otrpagent@2\.0-service   u:object_r:hal_otrpagent_default_exec:s0
+
 # RPMB device
 /dev/0:0:0:49476  u:object_r:teei_rpmb_device:s0
 
