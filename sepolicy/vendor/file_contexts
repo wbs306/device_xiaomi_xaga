@@ -7,3 +7,6 @@
 
 # NXP NFC
 /(vendor|system/vendor)/bin/hw/vendor\.nxp\.hardware\.nfc@2\.0-service		u:object_r:vendor_hal_nfc_default_exec:s0
+
+# RPMB device
+/dev/0:0:0:49476  u:object_r:teei_rpmb_device:s0
