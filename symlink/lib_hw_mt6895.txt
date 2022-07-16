@@ -1,0 +1,7 @@
+android.hardware.graphics.allocator@4.0-impl-mediatek.so
+android.hardware.graphics.mapper@4.0-impl-mediatek.so
+gralloc.common.so
+vendor.mediatek.hardware.camera.atms@1.0-impl.so
+vendor.mediatek.hardware.camera.bgservice@1.1-impl.so
+vendor.mediatek.hardware.pq@2.13-impl.so
+vulkan.mali.so
