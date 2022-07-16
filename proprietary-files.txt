@@ -1260,6 +1260,9 @@ vendor/etc/vintf/manifest/android.hardware.security.sharedsecret-service.beanpod
 vendor/lib64/lib_android_keymaster_keymint_utils.so
 vendor/lib64/libkeymint.so
 
+# Keymint
+vendor/etc/permissions/android.hardware.hardware_keystore.xml
+
 # Light
 vendor/bin/hw/android.hardware.lights-service.mediatek
 
