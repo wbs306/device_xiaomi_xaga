@@ -1,0 +1,6 @@
+allow hal_keymint_default mnt_vendor_file:dir search;
+allow hal_keymint_default persist_data_file:dir { search };
+allow hal_keymint_default persist_data_file:file { ioctl read getattr lock map open watch watch_reads };
+allow hal_keymint_default mobicore:unix_stream_socket { read write connectto };
+allow hal_keymint_default mobicore_user_device:chr_file { ioctl read write getattr lock append map open watch watch_reads };
+allow hal_keymint_default teei_client_device:chr_file { ioctl read write getattr lock append map open watch watch_reads };
