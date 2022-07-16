@@ -845,6 +845,9 @@ lib64/libsysenv_system.so
 system_ext/lib/vendor.mediatek.hardware.videotelephony@1.0.so
 system_ext/lib64/vendor.mediatek.hardware.videotelephony@1.0.so
 
+# Keymint
+vendor/etc/permissions/android.hardware.hardware_keystore.xml
+
 # Light
 vendor/bin/hw/android.hardware.lights-service.mediatek
 
