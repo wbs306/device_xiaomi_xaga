@@ -6,3 +6,7 @@
 
 # NXP NFC
 /(vendor|system/vendor)/bin/hw/vendor\.nxp\.hardware\.nfc@2\.0-service		u:object_r:vendor_hal_nfc_default_exec:s0
+
+# OTrP Agent
+/(vendor|system/vendor)/bin/vendor\.xiaomi\.hardware\.otrpagent@2\.0-service   u:object_r:hal_otrpagent_default_exec:s0
+
