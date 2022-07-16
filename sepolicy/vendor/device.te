@@ -1,0 +1,12 @@
+type gz_block_device, dev_type;
+type dpm_block_device, dev_type;
+type vcp_device, dev_type;
+type gpueb_device, dev_type;
+type pi_img_device, dev_type;
+type apusys_device, dev_type;
+type mcf_ota_block_device, dev_type;
+type audio_dsp_block_device, dev_type;
+type mvpu_algo_device, dev_type;
+type ffu_partition, dev_type;
+type gsort_block_device, dev_type;
+type postinstall_block_device, dev_type;

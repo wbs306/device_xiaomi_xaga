@@ -7,6 +7,71 @@
 # NXP NFC
 /(vendor|system/vendor)/bin/hw/vendor\.nxp\.hardware\.nfc@2\.0-service		u:object_r:vendor_hal_nfc_default_exec:s0
 
+# Block partition
+/dev/block/by-name/lk(_[ab])?                       u:object_r:lk_block_device:s0
+/dev/block/by-name/gz([12]|_[ab])                   u:object_r:gz_block_device:s0
+/dev/block/by-name/odm(_[ab])?                      u:object_r:odm_block_device:s0
+/dev/block/by-name/oem(_[ab])?                      u:object_r:oem_block_device:s0
+/dev/block/by-name/tee([12]|_[ab])                  u:object_r:tee_block_device:s0
+/dev/block/by-name/scp(_[ab])?                      u:object_r:scp_block_device:s0
+/dev/block/by-name/dpm.*                            u:object_r:dpm_block_device:s0
+/dev/block/by-name/dpm(_[ab])?                      u:object_r:dpm_block_device:s0
+/dev/block/by-name/ccu(_[ab])?                      u:object_r:ccu_device:s0
+/dev/block/by-name/vcp(_[ab])?                      u:object_r:vcp_device:s0
+/dev/block/by-name/logo(_[ab])?                     u:object_r:logo_block_device:s0
+/dev/block/by-name/boot(_[ab])?                     u:object_r:boot_block_device:s0
+/dev/block/by-name/dtbo(_[ab])?                     u:object_r:dtbo_block_device:s0
+/dev/block/by-name/sspm(_[ab])?                     u:object_r:sspm_block_device:s0
+/dev/block/by-name/spmfw(_[ab])?                    u:object_r:spmfw_block_device:s0
+/dev/block/by-name/mcupm(_[ab])?                    u:object_r:mcupmfw_block_device:s0
+/dev/block/by-name/gpueb(_[ab])?                    u:object_r:gpueb_device:s0
+/dev/block/by-name/system(_[ab])?                   u:object_r:system_block_device:s0
+/dev/block/by-name/vendor(_[ab])?                   u:object_r:vendor_block_device:s0
+/dev/block/by-name/md1img(_[ab])?                   u:object_r:md_block_device:s0
+/dev/block/by-name/md1dsp(_[ab])?                   u:object_r:dsp_block_device:s0
+/dev/block/by-name/md3img(_[ab])?                   u:object_r:md_block_device:s0
+/dev/block/by-name/vbmeta(_system|_vendor)?(_[ab])? u:object_r:vbmeta_block_device:s0
+/dev/block/by-name/pi_img(_[ab])?                   u:object_r:pi_img_device:s0
+/dev/block/by-name/apusys(_[ab])?                   u:object_r:apusys_device:s0
+/dev/block/by-name/mrdump(/.*)?                     u:object_r:mrdump_device:s0
+/dev/block/by-name/mcf_ota(_[ab])?                  u:object_r:mcf_ota_block_device:s0
+/dev/block/by-name/cam_vpu[1-3](_[ab])?             u:object_r:cam_vpu_block_device:s0
+/dev/block/by-name/odmdtbo(_[ab])?                  u:object_r:dtbo_block_device:s0
+/dev/block/by-name/md1arm7(_[ab])?                  u:object_r:md_block_device:s0
+/dev/block/by-name/mcupmfw(_[ab])?                  u:object_r:mcupmfw_block_device:s0
+/dev/block/by-name/audio_dsp(_[ab])?                u:object_r:audio_dsp_block_device:s0
+/dev/block/by-name/mvpu_algo(_[ab])?                u:object_r:mvpu_algo_device:s0
+/dev/block/by-name/loader_ext(_[ab])?               u:object_r:loader_ext_block_device:s0
+/dev/block/by-name/vendor_boot(_[ab])?              u:object_r:boot_block_device:s0
+/dev/block/by-name/otp                              u:object_r:otp_part_block_device:s0
+/dev/block/by-name/frp                              u:object_r:frp_block_device:s0
+/dev/block/by-name/ffu                              u:object_r:ffu_partition:s0
+/dev/block/by-name/para                             u:object_r:para_block_device:s0
+/dev/block/by-name/misc                             u:object_r:misc_block_device:s0
+/dev/block/by-name/sec1                             u:object_r:sec1_block_device:s0
+/dev/block/by-name/nvram                            u:object_r:nvram_device:s0
+/dev/block/by-name/expdb                            u:object_r:expdb_block_device:s0
+/dev/block/by-name/misc2                            u:object_r:misc2_block_device:s0
+/dev/block/by-name/secro                            u:object_r:secro_block_device:s0
+/dev/block/by-name/cache                            u:object_r:cache_block_device:s0
+/dev/block/by-name/nvcfg                            u:object_r:nvcfg_block_device:s0
+/dev/block/by-name/super                            u:object_r:super_block_device:s0
+/dev/block/by-name/gsort                            u:object_r:gsort_block_device:s0
+/dev/block/by-name/bk_07                            u:object_r:ffu_partition:s0
+/dev/block/by-name/nvdata                           u:object_r:nvdata_device:s0
+/dev/block/by-name/seccfg                           u:object_r:seccfg_block_device:s0
+/dev/block/by-name/proinfo                          u:object_r:nvram_device:s0
+/dev/block/by-name/persist                          u:object_r:persist_block_device:s0
+/dev/block/by-name/userdata                         u:object_r:userdata_block_device:s0
+/dev/block/by-name/recovery                         u:object_r:recovery_block_device:s0
+/dev/block/by-name/protect1                         u:object_r:protect1_block_device:s0
+/dev/block/by-name/protect2                         u:object_r:protect2_block_device:s0
+/dev/block/by-name/keystore                         u:object_r:keystore_block_device:s0
+/dev/block/by-name/metadata                         u:object_r:metadata_block_device:s0
+/dev/block/by-name/boot_para                        u:object_r:boot_para_block_device:s0
+/dev/block/by-name/preloader_raw_a                  u:object_r:postinstall_block_device:s0
+/dev/block/by-name/preloader_raw_b                  u:object_r:postinstall_block_device:s0
+
 # OTrP Agent
 /(vendor|system/vendor)/bin/vendor\.xiaomi\.hardware\.otrpagent@2\.0-service   u:object_r:hal_otrpagent_default_exec:s0
 
