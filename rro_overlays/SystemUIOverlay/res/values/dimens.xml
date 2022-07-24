@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-     Copyright (C) 2019-2021 The Evolution X Project
+     Copyright (C) 2022 The Evolution X Project
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -17,7 +17,10 @@
 
 <resources>
 
-   <!-- the padding on the top of the statusbar (usually 0) -->
-   <dimen name="status_bar_padding_top">8dp</dimen>
+    <!-- the padding on the top of the statusbar (usually 0) -->
+    <dimen name="status_bar_padding_top">8dp</dimen>
+
+    <!-- the padding on the start of the statusbar -->
+    <dimen name="status_bar_padding_start">18dp</dimen>
 
 </resources>
