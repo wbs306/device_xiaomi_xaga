@@ -1,6 +1,9 @@
 on early-init
     start set_permissive
 
+on post-fs
+    mount none /system/bin/hw/android.hardware.lights-service.mediatek /vendor/bin/hw/android.hardware.lights-service.mediatek bind
+
 service set_permissive /system/bin/set_permissive.sh
     class main
     user root
