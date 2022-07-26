@@ -1,6 +1,6 @@
 package org.lineageos.mediatek.incallservice;
 
-import android.media.AudioManager;
+import android.telephony.TelephonyManager;
 
 import android.content.Intent;
 import android.content.IntentFilter;
@@ -10,11 +10,11 @@ import android.os.IBinder;
 
 import android.util.Log;
 
-public class VolumeChangeService extends Service {
+public class PhoneStateChangeService extends Service {
     public static final String LOG_TAG = "MtkInCallService";
 
     private Context mContext;
-    private VolumeChangeReceiver mVolumeChangeReceiver;
+    private PhoneStateChangeReceiver mPhoneStateChangeReceiver;
 
     @Override
     public IBinder onBind(Intent intent) {
@@ -29,11 +29,12 @@ public class VolumeChangeService extends Service {
     @Override
     public int onStartCommand(Intent intent, int flags, int startid) {
         mContext = this;
-        mVolumeChangeReceiver = new VolumeChangeReceiver(mContext);
+        mPhoneStateChangeReceiver = new PhoneStateChangeReceiver(mContext);
 
         Log.i(LOG_TAG, "Service is starting...");
-        this.registerReceiver(mVolumeChangeReceiver,
-                               new IntentFilter(AudioManager.VOLUME_CHANGED_ACTION));
+        this.registerReceiver(mPhoneStateChangeReceiver,
+                               new IntentFilter(TelephonyManager.ACTION_PHONE_STATE_CHANGED));
         return START_STICKY;
     }
 }
+
