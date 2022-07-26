@@ -96,22 +96,38 @@ void vendor_load_properties()
     property_override("dalvik.vm.heapminfree", heapminfree);
     property_override("dalvik.vm.heapmaxfree", heapmaxfree);
 
+    string brand = "Redmi";
     string model;
     string marketname;
 
+    string region = GetProperty("ro.boot.hwc", "");
     string board = GetProperty("ro.boot.product.hardware.sku", "");
+    string name = board;
     
     property_override("ro.product.board", board);
     property_override("ro.product.device", board);
     property_override("ro.product.vendor.device", board);
-    property_override("ro.product.vendor.name", board);
 
     if (board == "xaga") {
-        model = "22041216C";
-        marketname = "Redmi Note 11T Pro";
+        if (region == "CN") {
+            model = "22041216C";
+            marketname = "Redmi Note 11T Pro";
+        } else {
+            brand = "POCO";
+            model = "22041216G";
+            marketname = "POCO X4 GT";
+            name = "xaga_global";
+        }
     } else if (board == "xagapro") {
-        model = "22041216UC";
-        marketname = "Redmi Note 11T Pro+";
+        if (region == "CN") {
+            model = "22041216UC";
+            marketname = "Redmi Note 11T Pro+";
+        } else {
+            brand = "POCO";
+            model = "22041216UG";
+            marketname = "POCO X4 GT Pro";
+            name = "xagapro_global";
+        }
     } else if (board == "xagain") {
         model = "22041216I";
         marketname = "Redmi K50i";
@@ -123,7 +139,9 @@ void vendor_load_properties()
     // Override all partitions' props
     string prop_partitions[] = {"", "odm.", "vendor."};
     for (const string &prop : prop_partitions) {
+        property_override(string("ro.product.") + prop + string("brand"), brand);
         property_override(string("ro.product.") + prop + string("model"), model);
         property_override(string("ro.product.") + prop + string("marketname"), marketname);
+        property_override(string("ro.product.") + prop + string("name"), name);
     }
 }
