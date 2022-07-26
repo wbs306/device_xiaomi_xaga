@@ -1,4 +1,4 @@
-# Unpinned blobs from missi-user 12 SP1A.210812.016 V13.0.9.0.SLOCNXM release-keys
+# Unpinned blobs from xaga-user 12 SP1A.210812.016 V13.0.11.0.SLOCNXM release-keys
 
 # APNs
 etc/apns-conf.xml
