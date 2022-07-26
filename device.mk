@@ -176,5 +176,9 @@ PRODUCT_SOONG_NAMESPACES += \
 PRODUCT_TARGET_VNDK_VERSION := 31
 PRODUCT_EXTRA_VNDK_VERSIONS := 31
 
+# Xiaomi Parts
+PRODUCT_PACKAGES += \
+    XiaomiParts
+
 # Inherit the proprietary files
 $(call inherit-product, vendor/xiaomi/xaga/xaga-vendor.mk)
