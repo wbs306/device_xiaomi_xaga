@@ -1,5 +1,7 @@
-Copyright (C) 2022 LineageOs
+Copyright (C) 2022 LineageOS
 # Android device tree for Redmi Note 11T Pro (xaga)
+
+## This device tree also support Redmi 11T Note Pro+, Redmi K50i / K50i Pro and POCO X4 GT / X4 GT PRO.
 
 The Redmi Note 11T Pro (codenamed _"xaga"_) is a high-end, mid-range smartphone from Xiaomi.
 
