@@ -1,5 +1,6 @@
 cc_binary {
     name: "android.hardware.lights-service.xiaomi_mt6895",
+    stem: "android.hardware.lights-service.mediatek",
     relative_install_path: "hw",
     shared_libs: [
         "libbase",
