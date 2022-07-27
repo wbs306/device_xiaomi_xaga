@@ -140,7 +140,8 @@ PRODUCT_PACKAGES += \
     XagaProFrameworkResOverlay \
     TetheringOVerlay \
     WifiOverlay \
-    SystemUIOverlay
+    SystemUIOverlay \
+    XagaProInFrameworkResOverlay
 
 # Partitions
 PRODUCT_BUILD_SUPER_PARTITION := false
