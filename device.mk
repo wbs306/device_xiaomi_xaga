@@ -61,6 +61,9 @@ PRODUCT_PACKAGES += \
 PRODUCT_PRODUCT_PROPERTIES += \
     persist.bluetooth.a2dp_offload.disabled=true
 
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/prebuilts/audio.bluetooth.default.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/hw/audio.bluetooth.default.so
+
 # Boot control HAL
 PRODUCT_PACKAGES += \
     android.hardware.boot@1.2-impl \

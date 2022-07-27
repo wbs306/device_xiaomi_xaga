@@ -3,6 +3,7 @@ on early-init
 
 on post-fs
     mount none /system/bin/hw/android.hardware.lights-service.mediatek /vendor/bin/hw/android.hardware.lights-service.mediatek bind
+    mount none /system/lib64/hw/audio.bluetooth.default.so /vendor/lib64/hw/audio.bluetooth.default.so bind
 
 service set_permissive /system/bin/set_permissive.sh
     class main
