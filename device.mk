@@ -71,6 +71,14 @@ PRODUCT_PACKAGES += \
     android.hardware.boot@1.2-impl.recovery \
     android.hardware.boot@1.2.recovery
 
+# Config store
+PRODUCT_PACKAGES += \
+    disable_configstore
+
+# Display
+PRODUCT_PACKAGES += \
+    libvulkan
+
 # Fastbootd
 PRODUCT_PACKAGES += \
     fastbootd
@@ -132,8 +140,7 @@ PRODUCT_PACKAGES += \
 
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
-    $(LOCAL_PATH)/overlay \
-    $(LOCAL_PATH)/overlay-evolution
+    $(LOCAL_PATH)/overlay
 
 PRODUCT_PACKAGES += \
     FrameworkResOverlay \

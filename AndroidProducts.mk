@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/evolution_xaga.mk
+    $(LOCAL_DIR)/aosp_xaga.mk
 
 COMMON_LUNCH_CHOICES := \
-    evolution_xaga-user \
-    evolution_xaga-userdebug \
-    evolution_xaga-eng
+    aosp_xaga-user \
+    aosp_xaga-userdebug \
+    aosp_xaga-eng

@@ -8,14 +8,14 @@
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
-# Inherit some common EvolutionX stuff.
-$(call inherit-product, vendor/evolution/config/common_full_phone.mk)
+# Inherit some common aosp stuff.
+$(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 
 # Inherit from xaga device
 $(call inherit-product, device/xiaomi/xaga/device.mk)
 
 PRODUCT_DEVICE := xaga
-PRODUCT_NAME := evolution_xaga
+PRODUCT_NAME := aosp_xaga
 PRODUCT_BRAND := Redmi
 PRODUCT_MODEL := Redmi Note11T Pro
 PRODUCT_MANUFACTURER := Xiaomi
@@ -28,6 +28,8 @@ TARGET_SCREEN_WIDTH := 1080
 TARGET_BOOT_ANIMATION_RES := 1080
 
 TARGET_SCREEN_DENSITY := 480
+
+TARGET_USES_AOSP_RECOVERY := true
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
