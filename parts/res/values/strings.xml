@@ -69,4 +69,6 @@
     <string name="music_headset_scenario_video">Video</string>
     <string name="music_headset_scenario_vocal">Voice</string>
 
+    <!-- Refresh Rate tile -->
+    <string name="refresh_rate_tile_title">Refresh Rate</string>
 </resources>
