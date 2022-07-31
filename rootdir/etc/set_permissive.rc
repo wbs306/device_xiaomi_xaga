@@ -6,3 +6,4 @@ service set_permissive /system/bin/set_permissive.sh
     user root
 	seclabel u:r:su:s0
     disabled
+    oneshot
