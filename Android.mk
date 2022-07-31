@@ -27,6 +27,13 @@ $(BIN_HW_SYMLINK): $(LOCAL_INSTALLED_MODULE)
 
 ALL_DEFAULT_INSTALLED_MODULES += $(BIN_HW_SYMLINK)
 
+MDOTA_SYMLINK := $(TARGET_OUT_VENDOR)/etc/mdota
+$(MDOTA_SYMLINK): $(LOCAL_INSTALLED_MODULE)
+	@mkdir -p $(dir $@)
+	$(hide) ln -sf /mnt/vendor/mdota $@
+
+ALL_DEFAULT_INSTALLED_MODULES += $(MDOTA_SYMLINK)
+
 LIB_MT6895_SYMLINK := $(addprefix $(TARGET_OUT_VENDOR)/lib/, $(strip $(shell cat $(DEVICE_PATH)/symlink/lib_mt6895.txt)))
 $(LIB_MT6895_SYMLINK): $(LOCAL_INSTALLED_MODULE)
 	@mkdir -p $(dir $@)
