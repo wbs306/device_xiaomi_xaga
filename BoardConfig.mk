@@ -156,6 +156,7 @@ VENDOR_SECURITY_PATCH := 2021-08-01
 BUILD_BROKEN_VENDOR_PROPERTY_NAMESPACE := true
 include device/mediatek/sepolicy_vndr/SEPolicy.mk
 BOARD_VENDOR_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy/vendor
+SELINUX_IGNORE_NEVERALLOWS := true
 
 # Verified Boot
 BOARD_AVB_ENABLE := true
