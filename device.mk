@@ -42,19 +42,26 @@ PRODUCT_PACKAGES += \
 
 # Audio
 PRODUCT_PACKAGES += \
-    android.hardware.audio.common-util \
+    android.hardware.audio.common@7.0-util \
+    android.hardware.audio.service \
     android.hardware.audio@7.0-impl \
-    android.hardware.audio@4.0-util \
-    android.hardware.audio@5.0-util \
-    android.hardware.audio@6.0-util \
-    android.hardware.audio@7.0-util \
-    android.hardware.audio.effect@4.0-util \
-    android.hardware.audio.effect@5.0-util \
-    android.hardware.audio.effect@6.0-util \
-    android.hardware.audio.effect@7.0-util \
-    libaudio-resampler \
-    libaudioprocessing \
-    libaudiospdif
+    android.hardware.audio.effect@7.0-impl \
+    android.hardware.soundtrigger@2.3-impl \
+    android.hardware.bluetooth.audio@2.1-impl \
+    audio.a2dp.default \
+    audio.bluetooth.default \
+    audio.r_submix.default \
+    audio.usb.default \
+    audio_policy.stub \
+    libaudiopreprocessing \
+    libbundlewrapper \
+    libdownmix \
+    libdynproc \
+    libeffectproxy \
+    libldnhncr \
+    libreverbwrapper \
+    libvisualizer \
+    libaudiofoundation.vendor \
 
 PRODUCT_PACKAGES += \
     android.hardware.soundtrigger@2.0 \
@@ -173,8 +180,33 @@ PRODUCT_PACKAGES += \
 
 # Rootdir
 PRODUCT_PACKAGES += \
-    init.mt6895.rc \
+    init.insmod.sh \
+    init.ram.sh \
+    init.taskset.sh \
     set_permissive.sh
+
+PRODUCT_PACKAGES += \
+    fstab.mt6895 \
+    init.batterysecret.rc \
+    init.cgroup.rc \
+    init.charge_logger.rc \
+    init.connectivity.common.rc \
+    init.connectivity.rc \
+    init.mi_thermald.rc \
+    init.modem.rc \
+    init.mt6895.rc \
+    init.mt6895.usb.rc \
+    init.mtkgki.rc \
+    init.project.rc \
+    init.sensor_2_0.rc \
+    init_conninfra.rc \
+    meta_init.connectivity.common.rc \
+    meta_init.connectivity.rc \
+    meta_init.modem.rc \
+    meta_init.project.rc \
+    meta_init.rc \
+    multi_init.rc \
+    set_permissive.rc
 
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/rootdir/etc/fstab.mt6895:recovery/root/first_stage_ramdisk/fstab.mt6895

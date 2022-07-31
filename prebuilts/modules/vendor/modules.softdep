@@ -1,0 +1,3 @@
+# Soft dependencies extracted from modules themselves.
+softdep sspm_v3 pre: tinysys-scmi.ko
+softdep mali_kbase_mt6895 pre: memory_group_manager
