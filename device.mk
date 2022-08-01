@@ -313,6 +313,11 @@ PRODUCT_PACKAGES += \
 PRODUCT_TARGET_VNDK_VERSION := 31
 PRODUCT_EXTRA_VNDK_VERSIONS := 31
 
+# USB
+PRODUCT_PACKAGES += \
+    android.hardware.usb@1.3.vendor \
+    android.hardware.usb.gadget@1.1.vendor
+
 # Xiaomi Parts
 PRODUCT_PACKAGES += \
     XiaomiParts
