@@ -745,14 +745,6 @@ vendor/lib/vendor.xiaomi.hardware.micharge@1.0.so
 vendor/lib64/hw/vendor.xiaomi.hardware.micharge@1.0-impl.so
 vendor/lib64/vendor.xiaomi.hardware.micharge@1.0.so
 
-# ConsumerIr
-vendor/bin/hw/android.hardware.ir@1.0-service
-vendor/etc/init/android.hardware.ir@1.0-service.rc
-vendor/lib/hw/android.hardware.ir@1.0-impl.so
-vendor/lib/hw/consumerir.common.so
-vendor/lib64/hw/android.hardware.ir@1.0-impl.so
-vendor/lib64/hw/consumerir.common.so
-
 # Display
 vendor/bin/hw/mt6895/android.hardware.graphics.allocator@4.0-service-mediatek.mt6895
 vendor/bin/hw/android.hardware.graphics.composer@2.1-service

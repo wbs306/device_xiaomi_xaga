@@ -91,6 +91,12 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     disable_configstore
 
+# ConsumerIr
+PRODUCT_PACKAGES += \
+    consumerir.common \
+    android.hardware.ir@1.0-service \
+    android.hardware.ir@1.0-impl
+
 # Display
 PRODUCT_PACKAGES += \
     libvulkan
