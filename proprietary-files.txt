@@ -1390,6 +1390,7 @@ vendor/lib64/vendor.xiaomi.hardware.tidaservice@1.1.so
 # Power
 vendor/lib/hw/power.default.so
 vendor/lib64/hw/power.default.so
+vendor/lib64/android.hardware.power-service-mediatek.so
 
 # Radio
 system_ext/lib/vendor.mediatek.hardware.mtkradioex@3.0.so
