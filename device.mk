@@ -62,6 +62,7 @@ PRODUCT_PACKAGES += \
     libreverbwrapper \
     libvisualizer \
     libaudiofoundation.vendor \
+    sound_trigger.primary.default
 
 PRODUCT_PACKAGES += \
     android.hardware.soundtrigger@2.0 \

@@ -1445,12 +1445,6 @@ vendor/lib64/vendor.qti.sla.service@1.0.so
 # Soter (Tencent)
 vendor/app/SoterService/SoterService.apk
 
-# Soundtrigger
-vendor/lib/hw/android.hardware.soundtrigger@2.3-impl.so
-vendor/lib/hw/sound_trigger.primary.default.so
-vendor/lib64/hw/android.hardware.soundtrigger@2.3-impl.so
-vendor/lib64/hw/sound_trigger.primary.default.so
-
 # Thermal
 vendor/bin/hw/android.hardware.thermal@2.0-service.mtk
 vendor/etc/init/android.hardware.thermal@2.0-service.mtk.rc
