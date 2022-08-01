@@ -309,6 +309,10 @@ PRODUCT_PACKAGES += \
     vndservice \
     vndservicemanager
 
+# Vibrator
+PRODUCT_PACKAGES += \
+    android.hardware.vibrator-V1-ndk_platform
+
 # VNDK
 PRODUCT_TARGET_VNDK_VERSION := 31
 PRODUCT_EXTRA_VNDK_VERSIONS := 31
