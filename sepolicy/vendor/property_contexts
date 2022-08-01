@@ -1,0 +1,2 @@
+# Kernel module
+vendor.all.modules.ready                    u:object_r:vendor_mtk_device_prop:s0
