@@ -747,8 +747,6 @@ vendor/lib64/vendor.xiaomi.hardware.micharge@1.0.so
 
 # Display
 vendor/bin/hw/mt6895/android.hardware.graphics.allocator@4.0-service-mediatek.mt6895
-vendor/bin/hw/android.hardware.graphics.composer@2.1-service
-vendor/bin/hw/android.hardware.graphics.composer@2.3-service
 vendor/bin/hw/android.hardware.memtrack-service.mediatek
 vendor/etc/init/android.hardware.graphics.allocator@4.0-service-mediatek.rc
 vendor/etc/init/android.hardware.graphics.composer@2.1-service.rc
