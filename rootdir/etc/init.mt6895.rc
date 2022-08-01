@@ -16,9 +16,6 @@ import ${ro.vendor.rc}init.cgroup.rc
 import ${ro.vendor.rc}init.modem.rc
 # *** DO NOT import the new rc file after this line ***
 
-on post-fs
-    mount none /system/bin/hw/android.hardware.lights-service.mediatek /vendor/bin/hw/android.hardware.lights-service.mediatek bind
-
 on early-init
     write /proc/bootprof "INIT:early-init"
 

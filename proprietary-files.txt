@@ -1242,9 +1242,6 @@ vendor/lib64/libkeymint.so
 # Keymint
 vendor/etc/permissions/android.hardware.hardware_keystore.xml
 
-# Light
-vendor/bin/hw/android.hardware.lights-service.mediatek
-
 # Local time
 vendor/lib/hw/local_time.default.so
 vendor/lib64/hw/local_time.default.so
@@ -1909,7 +1906,6 @@ vendor/etc/init/init.vtservice_hidl.rc
 vendor/etc/init/init.wlan_drv.rc
 vendor/etc/init/ipsec_mon.rc
 vendor/etc/init/lbs_hidl_service.rc
-vendor/etc/init/lights-mtk-default.rc
 vendor/etc/init/loghidlvendorservice.rc
 vendor/etc/init/md_monitor.rc
 vendor/etc/init/memtrack-mediatek.rc
@@ -2131,7 +2127,6 @@ vendor/etc/vintf/manifest/fod.xml
 vendor/etc/vintf/manifest/gnss-default.xml
 vendor/etc/vintf/manifest/gnss@2.1-service.xml
 vendor/etc/vintf/manifest/lbs_hidl_service@1.0.xml
-vendor/etc/vintf/manifest/lights-mtk-default.xml
 vendor/etc/vintf/manifest/manifest.microtrust.xml
 vendor/etc/vintf/manifest/manifest_apuware_apusys.xml
 vendor/etc/vintf/manifest/manifest_apuware_hmp.xml
