@@ -18,7 +18,6 @@ import ${ro.vendor.rc}init.modem.rc
 
 on post-fs
     mount none /system/bin/hw/android.hardware.lights-service.mediatek /vendor/bin/hw/android.hardware.lights-service.mediatek bind
-    mount none /system/lib64/hw/audio.bluetooth.default.so /vendor/lib64/hw/audio.bluetooth.default.so bind
 
 on early-init
     write /proc/bootprof "INIT:early-init"
