@@ -1,0 +1,45 @@
+type camera_persist_file, file_type;
+
+type DualCameraCal, domain;
+type DualCameraCal_exec, file_type, exec_type, vendor_file_type;
+
+type OisCal, domain;
+type OisCal_exec, file_type, exec_type, vendor_file_type;
+
+type data_vendor_flash_file, file_type, data_file_type;
+type data_vendor_flicker_file, file_type, data_file_type;
+
+init_daemon_domain(DualCameraCal)
+init_daemon_domain(OisCal)
+
+allow init {
+    DualCameraCal_exec
+    OisCal_exec
+}:file { read getattr map execute open };
+
+allow init {
+    DualCameraCal
+    OisCal
+}:process { transition siginh rlimitinh };
+
+allow DualCameraCal DualCameraCal_exec:file { read getattr map execute open entrypoint };
+dontaudit init DualCameraCal:process { noatsecure };
+type_transition init DualCameraCal_exec:process DualCameraCal;
+allow DualCameraCal mnt_vendor_file:dir { ioctl read getattr lock open watch watch_reads search };
+allow DualCameraCal camera_persist_file:dir { ioctl read write create getattr setattr lock rename open watch watch_reads add_name remove_name reparent search rmdir };
+allow DualCameraCal camera_persist_file:file { ioctl read write create getattr setattr lock append map unlink rename open watch watch_reads };
+
+allow OisCal OisCal_exec:file { read getattr map execute open entrypoint };
+dontaudit init OisCal:process { noatsecure };
+type_transition init OisCal_exec:process OisCal;
+allow OisCal mnt_vendor_file:dir { ioctl read getattr lock open watch watch_reads search };
+allow OisCal camera_persist_file:dir { ioctl read write create getattr setattr lock rename open watch watch_reads add_name remove_name reparent search rmdir };
+allow OisCal camera_persist_file:file { ioctl read write create getattr setattr lock append map unlink rename open watch watch_reads };
+
+allow mtk_hal_camera data_vendor_flash_file:dir { ioctl read write create getattr setattr lock rename open watch watch_reads add_name remove_name reparent search rmdir };
+allow mtk_hal_camera data_vendor_flash_file:file { ioctl read write create getattr setattr lock append map unlink rename open watch watch_reads };
+allow mtk_hal_camera data_vendor_flicker_file:dir { ioctl read write create getattr setattr lock rename open watch watch_reads add_name remove_name reparent search rmdir };
+allow mtk_hal_camera data_vendor_flicker_file:file { ioctl read write create getattr setattr lock append map unlink rename open watch watch_reads };
+
+allow mtk_hal_camera camera_persist_file:dir { read open search };
+allow mtk_hal_camera camera_persist_file:file { read getattr open };

@@ -1,0 +1,25 @@
+type vendor_audio_data_file, file_type, data_file_type, core_data_file_type;
+type vendor_wifi_vendor_data_file, file_type, data_file_type;
+type charge_log_file, file_type, data_file_type;
+
+type ffu_data_file, file_type, data_file_type;
+type vendor_ins_vendor_data_file, file_type, data_file_type;
+type mi_ic_data_file, file_type, data_file_type;
+type otrp_data_file, file_type, data_file_type;
+type mqsas_common_file, file_type, data_file_type;
+
+allow system_app vendor_audio_data_file:dir { write add_name search };
+allow system_app vendor_audio_data_file:file { read write create getattr append open };
+allow system_app vendor_audio_data_file:file { lock };
+
+allow system_app vendor_wifi_vendor_data_file:dir { read getattr open search };
+allow system_app vendor_wifi_vendor_data_file:file { read getattr open };
+
+allow system_app charge_log_file:dir { search };
+allow system_app charge_log_file:file { read getattr open };
+
+allow system_app ffu_data_file:dir { ioctl read write create getattr setattr lock rename open watch watch_reads add_name remove_name reparent search rmdir };
+allow system_app ffu_data_file:file { ioctl read write create getattr setattr lock append map unlink rename open watch watch_reads };
+
+allow system_app mqsas_common_file:file { read write create getattr setattr append open };
+allow system_app mqsas_common_file:dir { ioctl read write getattr lock open watch watch_reads add_name remove_name search };
