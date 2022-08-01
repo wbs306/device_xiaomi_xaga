@@ -300,6 +300,10 @@ PRODUCT_SHIPPING_API_LEVEL := 31
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH)
 
+# Thermal
+PRODUCT_PACKAGES += \
+    android.hardware.thermal@2.0
+
 # Vendor service
 PRODUCT_PACKAGES += \
     vndservice \
