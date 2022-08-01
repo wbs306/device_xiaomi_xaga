@@ -145,7 +145,9 @@ PRODUCT_PACKAGES += \
     android.hidl.manager@1.0 \
     android.hidl.memory.block@1.0 \
     libhidltransport \
-    libhwbinder 
+    libhidltransport.vendor \
+    libhwbinder \
+    libhwbinder.vendor \
 
 # IMS
 PRODUCT_BOOT_JARS += \
