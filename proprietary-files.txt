@@ -733,11 +733,6 @@ vendor/etc/camera/svq_cache
 vendor/etc/camera/video_bokeh_apu_front_20210413.bin
 vendor/etc/camera/vidhance_calibration
 
-# CAS
-vendor/bin/hw/android.hardware.cas@1.2-service-lazy
-vendor/etc/init/android.hardware.cas@1.2-service-lazy.rc
-vendor/etc/vintf/manifest/android.hardware.cas@1.2-service-lazy.xml
-
 # Charger (Xiaomi)
 lib/vendor.xiaomi.hardware.micharge@1.0.so
 lib64/vendor.xiaomi.hardware.micharge@1.0.so
@@ -888,13 +883,11 @@ vendor/etc/init/android.hardware.drm@1.4-service.clearkey.rc
 vendor/etc/init/android.hardware.drm@1.4-service.widevine.rc
 vendor/etc/vintf/manifest/manifest_android.hardware.drm@1.4-service.clearkey.xml
 vendor/etc/vintf/manifest/manifest_android.hardware.drm@1.4-service.widevine.xml
-vendor/lib/mediacas/libclearkeycasplugin.so
 vendor/lib/mediadrm/libdrmclearkeyplugin.so
 vendor/lib/mediadrm/libmockdrmcryptoplugin.so
 vendor/lib/mediadrm/libwvdrmengine.so
 vendor/lib/liboemcrypto.so
 vendor/lib/libwvhidl.so
-vendor/lib64/mediacas/libclearkeycasplugin.so
 vendor/lib64/mediadrm/libdrmclearkeyplugin.so
 vendor/lib64/mediadrm/libmockdrmcryptoplugin.so
 vendor/lib64/mediadrm/libwvdrmengine.so

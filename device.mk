@@ -82,6 +82,11 @@ PRODUCT_PACKAGES += \
     android.hardware.boot@1.2-impl.recovery \
     android.hardware.boot@1.2.recovery
 
+# CAS
+PRODUCT_PACKAGES += \
+    libclearkeycasplugin \
+    android.hardware.cas@1.2-service-lazy
+
 # Config store
 PRODUCT_PACKAGES += \
     disable_configstore
