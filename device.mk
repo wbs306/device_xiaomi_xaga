@@ -330,7 +330,7 @@ PRODUCT_SOONG_NAMESPACES += \
 
 # Thermal
 PRODUCT_PACKAGES += \
-    android.hardware.thermal@2.0
+    android.hardware.thermal@2.0.vendor
 
 # Vendor service
 PRODUCT_PACKAGES += \
