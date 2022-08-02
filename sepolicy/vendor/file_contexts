@@ -1,6 +1,9 @@
 # Audio
 /data/vendor/cit(/.*)?            u:object_r:vendor_audio_data_file:s0
 
+# Bluetooth
+/(vendor|system/vendor)/bin/hw/android\.hardware\.bluetooth@1\.1-service-mediatek           u:object_r:mtk_hal_bluetooth_exec:s0
+
 # Camera
 /persist/camera(/.*)?             u:object_r:camera_persist_file:s0
 /mnt/vendor/persist/camera(/.*)?  u:object_r:camera_persist_file:s0
