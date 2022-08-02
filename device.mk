@@ -119,6 +119,10 @@ PRODUCT_PACKAGES += \
     libdrm.vendor \
     libvulkan
 
+# Dumpstate
+PRODUCT_PACKAGES += \
+    android.hardware.dumpstate@1.1.vendor
+
 # Fastbootd
 PRODUCT_PACKAGES += \
     fastbootd
