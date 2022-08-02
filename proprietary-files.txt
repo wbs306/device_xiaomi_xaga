@@ -747,6 +747,10 @@ vendor/lib/vendor.xiaomi.hardware.micharge@1.0.so
 vendor/lib64/hw/vendor.xiaomi.hardware.micharge@1.0-impl.so
 vendor/lib64/vendor.xiaomi.hardware.micharge@1.0.so
 
+# ConsumerIr
+vendor/lib/hw/consumerir.common.so
+vendor/lib64/hw/consumerir.common.so
+
 # Display
 vendor/bin/hw/mt6895/android.hardware.graphics.allocator@4.0-service-mediatek.mt6895
 vendor/bin/hw/android.hardware.memtrack-service.mediatek
