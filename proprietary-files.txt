@@ -267,10 +267,10 @@ vendor/bin/hw/android.hardware.bluetooth@1.1-service-mediatek
 vendor/etc/init/android.hardware.bluetooth@1.1-service-mediatek.rc
 
 # Bluetooth (A2DP)
-vendor/lib/hw/android.hardware.bluetooth.audio@2.0-impl.so
+vendor/lib/libbluetooth_audio_session_mediatek.so
 vendor/lib/hw/android.hardware.bluetooth.audio@2.1-impl.so
 vendor/lib64/hw/android.hardware.bluetooth.audio@2.0-impl.so
-vendor/lib64/hw/android.hardware.bluetooth.audio@2.1-impl.so
+vendor/lib64/libbluetooth_audio_session_mediatek.so
 
 # Camera
 vendor/lib/mt6895/lib3a.ae.core.so
