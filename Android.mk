@@ -19,11 +19,11 @@ $(BIN_SYMLINK): $(LOCAL_INSTALLED_MODULE)
 
 ALL_DEFAULT_INSTALLED_MODULES += $(BIN_SYMLINK)
 
-BIN_HW_SYMLINK := $(TARGET_OUT_VENDOR)/bin/hw/android.hardware.graphics.allocator@4.0-service-mediatek.mt6895
+BIN_HW_SYMLINK := $(TARGET_OUT_VENDOR)/bin/hw/android.hardware.graphics.allocator@4.0-service-mediatek
 BIN_HW_SYMLINK += $(TARGET_OUT_VENDOR)/bin/hw/camerahalserver
 $(BIN_HW_SYMLINK): $(LOCAL_INSTALLED_MODULE)
 	@mkdir -p $(dir $@)
-	$(hide) ln -sf mt6895/$(notdir $@) $@
+	$(hide) ln -sf mt6895/android.hardware.graphics.allocator@4.0-service-mediatek.mt6895 $@
 
 ALL_DEFAULT_INSTALLED_MODULES += $(BIN_HW_SYMLINK)
 
