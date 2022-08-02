@@ -347,7 +347,7 @@ PRODUCT_PACKAGES += \
 
 # Vibrator
 PRODUCT_PACKAGES += \
-    android.hardware.vibrator-V1-ndk_platform
+    android.hardware.vibrator-V1-ndk_platform.vendor
 
 # VNDK
 PRODUCT_TARGET_VNDK_VERSION := 31
