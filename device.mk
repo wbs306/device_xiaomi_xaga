@@ -119,6 +119,10 @@ PRODUCT_PACKAGES += \
     libdrm.vendor \
     libvulkan
 
+# DRM
+PRODUCT_PACKAGES += \
+    android.hardware.drm@1.4.vendor
+
 # Dumpstate
 PRODUCT_PACKAGES += \
     android.hardware.dumpstate@1.1.vendor
