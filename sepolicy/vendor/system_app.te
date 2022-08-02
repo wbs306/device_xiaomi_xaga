@@ -8,6 +8,8 @@ type mi_ic_data_file, file_type, data_file_type;
 type otrp_data_file, file_type, data_file_type;
 type mqsas_common_file, file_type, data_file_type;
 
+type vendor_sysfs_graphics, fs_type, sysfs_type;
+
 allow system_app vendor_audio_data_file:dir { write add_name search };
 allow system_app vendor_audio_data_file:file { read write create getattr append open };
 allow system_app vendor_audio_data_file:file { lock };
@@ -23,3 +25,6 @@ allow system_app ffu_data_file:file { ioctl read write create getattr setattr lo
 
 allow system_app mqsas_common_file:file { read write create getattr setattr append open };
 allow system_app mqsas_common_file:dir { ioctl read write getattr lock open watch watch_reads add_name remove_name search };
+
+allow system_app vendor_sysfs_graphics:dir { ioctl read getattr lock open watch watch_reads search };
+allow system_app vendor_sysfs_graphics:file { ioctl read write getattr lock append map open watch watch_reads };

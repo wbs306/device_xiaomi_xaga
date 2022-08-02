@@ -27,6 +27,20 @@
 # Duraspeed
 /data/duraspeed(/.*)?                   u:object_r:duraspeed_data_file:s0
 
+# Graphic
+/sys/devices/platform/[0-9]+.dispsys_config/drm/card[0-3]+/card[0-3]+-DSI-1/fod_ui_ready u:object_r:vendor_sysfs_graphics:s0
+/sys/devices/platform/[0-9]+.dispsys_config/drm/card[0-3]+/card[0-3]+-DSI-1/brightness_clone u:object_r:vendor_sysfs_graphics:s0
+/sys/devices/platform/[0-9]+.dispsys_config/drm/card[0-3]+/card[0-3]+-DSI-1/panel_info u:object_r:vendor_sysfs_graphics:s0
+/sys/devices/platform/[0-9]+.dispsys_config/drm/card[0-3]+/card[0-3]+-DSI-1/doze_brightness u:object_r:vendor_sysfs_graphics:s0
+/sys/devices/platform/[0-9]+.dispsys_config/drm/card[0-3]+/card[0-3]+-DSI-1/disp_param u:object_r:vendor_sysfs_graphics:s0
+/sys/devices/platform/[0-9]+.dispsys_config/drm/card[0-3]+/card[0-3]+-DSI-1/panel_event u:object_r:vendor_sysfs_graphics:s0
+/sys/class/drm/card0-DSI-1/panel_info                               u:object_r:vendor_sysfs_graphics:s0
+/sys/class/drm/card0-DSI-1/disp_param                          u:object_r:vendor_sysfs_graphics:s0
+/sys/class/drm/card0-DSI-1/panel_event                             u:object_r:vendor_sysfs_graphics:s0
+/sys/class/drm/card0-DSI-1/fod_ui_ready                             u:object_r:vendor_sysfs_graphics:s0
+/sys/class/drm/card0-DSI-1/doze_brightness                          u:object_r:vendor_sysfs_graphics:s0
+/sys/class/drm/card0-DSI-1/brightness_clone                         u:object_r:vendor_sysfs_graphics:s0
+
 # Keymint
 /(vendor|system/vendor)/bin/hw/android\.hardware\.security\.keymint@1\.0-service\.beanpod u:object_r:hal_keymint_default_exec:s0
 
