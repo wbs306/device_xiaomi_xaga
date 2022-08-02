@@ -319,6 +319,7 @@ vendor/lib/mt6895/xagas5khm2_mipi_raw_IdxMgr.so
 vendor/lib/libJpgEncPipe.so
 vendor/lib/libOpenCL.so
 vendor/lib/libSQLiteModule_VER_ALL.so
+vendor/lib/libaedv.so
 vendor/lib/libapu_mdw.so
 vendor/lib/libcamalgo.utility.so
 vendor/lib/libcamerasensorinfoxiaomi.so
@@ -601,6 +602,7 @@ vendor/lib64/libJpgEncPipe.so
 vendor/lib64/libOpenCL.so
 vendor/lib64/libSQLiteModule_VER_ALL.so
 vendor/lib64/libaaa_gma.so
+vendor/lib64/libaedv.so
 vendor/lib64/libanc_calibration_parser.so
 vendor/lib64/libanc_dc_base.so
 vendor/lib64/libanc_supervq.so
