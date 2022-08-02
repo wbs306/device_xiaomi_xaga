@@ -1256,6 +1256,7 @@ vendor/lib64/hw/local_time.default.so
 vendor/bin/hw/android.hardware.media.c2@1.2-mediatek
 vendor/bin/hw/android.hardware.media.c2@1.2-mediatek-64b
 vendor/etc/init/android.hardware.media.c2@1.2-mediatek-64b.rc
+vendor/lib/libavservices_minijail_vendor.so
 vendor/lib/libcodec2_hidl@1.1.so
 vendor/lib/libcodec2_hidl@1.2.so
 vendor/lib/libcodec2_hidl_plugin.so
@@ -1268,6 +1269,7 @@ vendor/lib/libcodec2_vpp_rs_plugin.so
 vendor/lib/libformatter.so
 vendor/lib/libsfplugin_ccodec_utils.so
 vendor/lib/libstagefright_bufferpool@2.0.1.so
+vendor/lib64/libavservices_minijail_vendor.so
 vendor/lib64/libcodec2_hidl@1.1.so
 vendor/lib64/libcodec2_hidl@1.2.so
 vendor/lib64/libcodec2_hidl_plugin.so
