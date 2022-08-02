@@ -321,6 +321,11 @@ PRODUCT_PACKAGES += \
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/rootdir/etc/fstab.mt6895:recovery/root/first_stage_ramdisk/fstab.mt6895
 
+# Sensor
+PRODUCT_PACKAGES += \
+    android.hardware.sensors@2.0-ScopedWakelock.vendor \
+    android.hardware.sensors@2.1.vendor \
+
 # Shipping API level
 PRODUCT_SHIPPING_API_LEVEL := 31
 
