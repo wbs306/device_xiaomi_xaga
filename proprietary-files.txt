@@ -1258,9 +1258,6 @@ vendor/lib64/libkeymint.so
 # Keymint
 vendor/etc/permissions/android.hardware.hardware_keystore.xml
 
-# Local time
-vendor/lib/hw/local_time.default.so
-vendor/lib64/hw/local_time.default.so
 
 # Media (Codec2)
 vendor/bin/hw/android.hardware.media.c2@1.2-mediatek

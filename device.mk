@@ -190,6 +190,10 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     android.hardware.lights-service.xiaomi_mt6895
 
+# Local time
+PRODUCT_PACKAGES += \
+    local_time.default
+
 # MtkInCallService
 PRODUCT_PACKAGES += \
     MtkInCallService
