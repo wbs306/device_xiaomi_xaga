@@ -1443,6 +1443,7 @@ vendor/etc/init/android.hardware.sensors@2.0-service.multihal-mediatek.rc
 vendor/lib/hw/sensors.elliptic@2.0.so
 vendor/lib/libnotifyaudiohal.so
 vendor/lib/sensors.touch.detect.so
+vendor/lib64/hw/android.hardware.sensors@2.X-subhal-mediatek.so
 vendor/lib64/hw/sensors.elliptic@2.0.so
 vendor/lib64/hw/sensors.mediatek.V2.0.so
 vendor/lib64/libksensor.so
