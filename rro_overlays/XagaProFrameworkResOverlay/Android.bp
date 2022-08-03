@@ -2,5 +2,5 @@ runtime_resource_overlay {
     name: "XagaProFrameworkResOverlay",
     theme: "XagaProFrameworkResOverlay",
     sdk_version: "current",
-    product_specific: true
+    vendor: true
 }
