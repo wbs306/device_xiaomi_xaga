@@ -1,4 +1,4 @@
-service vendor.light-default /vendor/bin/hw/android.hardware.light-service.xiaomi_mt6895
+service vendor.light-default /vendor/bin/hw/android.hardware.lights-service.xiaomi_mt6895
     class hal
     user system
     group system
