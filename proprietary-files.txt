@@ -210,6 +210,7 @@ vendor/lib64/vendor.mediatek.hardware.mtkpower@1.0.so
 # Android-Hardware
 vendor/lib/hw/audio.primary.mediatek.so
 vendor/lib/hw/audio.r_submix.mediatek.so
+vendor/lib/hw/sound_trigger.primary.default.so
 vendor/lib/libcvsd_mtk.so
 vendor/lib/libmsbc_mtk.so
 vendor/lib/libspeech_enh_lib.so
@@ -219,6 +220,7 @@ vendor/lib/vendor.mediatek.hardware.audio@6.1.so
 vendor/lib/vendor.mediatek.hardware.audio@7.1.so
 vendor/lib64/hw/audio.primary.mediatek.so
 vendor/lib64/hw/audio.r_submix.mediatek.so
+vendor/lib64/hw/sound_trigger.primary.default.so
 vendor/lib64/libcvsd_mtk.so
 vendor/lib64/libmsbc_mtk.so
 vendor/lib64/libspeech_enh_lib.so
