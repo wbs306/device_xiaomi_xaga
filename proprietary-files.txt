@@ -1969,11 +1969,6 @@ vendor/bin/hw/android.hardware.usb@1.2-service-mediatekv2
 vendor/etc/init/android.hardware.usb@1.2-service-mediatekv2.rc
 vendor/etc/vintf/manifest/android.hardware.usb@1.2-service-mediatekv2.xml
 
-# Vibrator
-vendor/bin/hw/android.hardware.vibrator-service.mediatek
-vendor/lib/hw/vibrator.default.so
-vendor/lib64/hw/vibrator.default.so
-
 # Vibrator (Xiaomi)
 vendor/bin/hw/vendor.xiaomi.hardware.vibratorfeature.service
 vendor/etc/init/vendor.xiaomi.hardware.vibratorfeature.service.rc
