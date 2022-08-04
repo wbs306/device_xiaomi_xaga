@@ -618,6 +618,7 @@ vendor/lib64/libarcsoft_dualcam_refocus_video.so
 vendor/lib64/libarcsoft_hdr_detection.so
 vendor/lib64/libarcsoft_high_dynamic_range.so
 vendor/lib64/libarcsoft_low_light_hdr.so
+vendor/lib64/libc++_shared.so
 vendor/lib64/libcam.hal3a.guard.so
 vendor/lib64/libcamalgo.WarpMapResizer.so
 vendor/lib64/libcamalgo.dngop.so
