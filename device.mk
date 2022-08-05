@@ -65,6 +65,7 @@ PRODUCT_PACKAGES += \
     libreverbwrapper \
     libvisualizer \
     libaudiofoundation.vendor \
+    libtinycompress \
     sound_trigger.primary.default
 
 PRODUCT_PACKAGES += \
