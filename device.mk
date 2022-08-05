@@ -42,8 +42,11 @@ PRODUCT_PACKAGES += \
 
 # Audio
 PRODUCT_PACKAGES += \
+    android.hardware.audio.common@6.0-util \
     android.hardware.audio.common@7.0-util \
-    android.hardware.audio.service \
+    android.hardware.audio.effect@6.0-util \
+    android.hardware.audio.effect@6.0-impl \
+    android.hardware.audio@6.0-impl \
     android.hardware.audio@7.0-impl \
     android.hardware.audio.effect@7.0-impl \
     android.hardware.soundtrigger@2.3-impl \
