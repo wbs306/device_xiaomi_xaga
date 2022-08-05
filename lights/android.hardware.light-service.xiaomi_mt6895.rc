@@ -1,5 +1,0 @@
-service vendor.light-default /vendor/bin/hw/android.hardware.lights-service.xiaomi_mt6895
-    class hal
-    user system
-    group system
-    shutdown critical
