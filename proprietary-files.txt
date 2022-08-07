@@ -2451,7 +2451,6 @@ vendor/etc/nnapi_powerhal.json
 vendor/etc/partition_permission.sh
 vendor/etc/power_app_cfg.xml
 vendor/etc/powercontable.xml
-vendor/etc/powerscntbl.xml
 vendor/etc/public.libraries.txt
 vendor/etc/screen_light.xml
 vendor/etc/sensor_diag.cfg
