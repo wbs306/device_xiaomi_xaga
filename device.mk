@@ -22,7 +22,8 @@ PRODUCT_PACKAGES += \
     FrameworkResOverlay \
     XagaProFrameworkResOverlay \
     SystemUIOverlay \
-    XagaProInFrameworkResOverlay
+    XagaProInFrameworkResOverlay \
+    SettingsOverlay
 
 # Recovery
 PRODUCT_COPY_FILES += \
