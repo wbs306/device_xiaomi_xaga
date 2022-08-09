@@ -19,8 +19,16 @@
 <resources>
 
     <!-- Height of the status bar -->
-    <dimen name="status_bar_height_default">38dp</dimen>
-    <dimen name="status_bar_height_portrait">38dp</dimen>
-    <dimen name="status_bar_height_landscape">30dp</dimen>
+    <dimen name="status_bar_height_portrait">100.0px</dimen>
+
+    <!-- Rounded corner settings for secondary built-in display -->
+    <dimen name="rounded_corner_radius_top">94.0px</dimen>
+    <dimen name="rounded_corner_radius_bottom">94.0px</dimen>
+
+    <!-- System-provided radius for the background view of app widgets. -->
+    <dimen name="system_app_widget_background_radius">16.72998dip</dimen>
+
+    <!-- System-provided radius for inner views on app widgets. -->
+    <dimen name="system_app_widget_inner_radius">8.72998dip</dimen>
 
 </resources>
