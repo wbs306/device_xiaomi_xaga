@@ -1,2 +1,0 @@
-allow init mqsas_common_file:file { read write create setattr open };
-allow init mqsas_common_file:dir { ioctl read write getattr lock open watch watch_reads add_name remove_name search };

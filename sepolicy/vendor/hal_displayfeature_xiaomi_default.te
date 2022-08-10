@@ -1,2 +1,0 @@
-type vendor_persist_display_file, file_type;
-type vendor_display_vendor_data_file, file_type, data_file_type;
