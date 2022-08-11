@@ -1762,7 +1762,6 @@ vendor/lib64/vendor.xiaomi.hardware.tidaservice@1.1.so
 vendor/bin/hw/vendor.mediatek.hardware.mtkpower@1.0-service
 vendor/etc/init/vendor.mediatek.hardware.mtkpower@1.0-init.rc
 vendor/etc/init/vendor.mediatek.hardware.mtkpower@1.0-service.rc
-vendor/etc/vintf/manifest/power-default.xml
 vendor/lib/hw/vendor.mediatek.hardware.mtkpower@1.2-impl.so
 vendor/lib/hw/power.default.so
 vendor/lib/libpower_timer.so
