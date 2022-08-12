@@ -54,16 +54,6 @@
     </LinearLayout>
 
     <ImageView
-        android:id="@+id/touch"
-        android:layout_width="wrap_content"
-        android:layout_height="match_parent"
-        android:paddingStart="16dp"
-        android:paddingEnd="16dp"
-        android:scaleType="centerInside"
-        android:src="@drawable/ic_touch"
-        android:visibility="invisible" />
-
-    <ImageView
         android:id="@+id/state"
         android:layout_width="wrap_content"
         android:layout_height="match_parent"
