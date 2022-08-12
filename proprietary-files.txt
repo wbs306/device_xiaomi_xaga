@@ -2661,7 +2661,6 @@ vendor/etc/ecc_list_preference.xml
 vendor/etc/elliptic_sensor.xml
 vendor/etc/excluded-input-devices.xml
 vendor/etc/factory.ini
-vendor/etc/fstab.enableswap
 vendor/etc/fstab.mt6895
 vendor/etc/fstb.cfg
 vendor/etc/gbe.cfg
