@@ -1,6 +1,12 @@
 on early-init
     start set_permissive
 
+on property:persist.sys.parts.gpu.governor=*
+    write /sys/devices/platform/13000000.mali/devfreq/13000000.mali/governor ${persist.sys.parts.gpu.governor}
+
+on property:persist.sys.parts.gpu.max_frequency=*
+    write /sys/devices/platform/13000000.mali/devfreq/13000000.mali/max_freq ${persist.sys.parts.gpu.max_frequency}
+
 service set_permissive /system/bin/set_permissive.sh
     class main
     user root
