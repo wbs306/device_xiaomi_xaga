@@ -81,6 +81,21 @@
         </activity>
 
         <activity
+            android:name=".gpu.GPUActivity"
+            android:label="@string/gpu_title"
+            android:theme="@style/Theme.SubSettingsBase">
+            <intent-filter>
+                <action android:name="com.android.settings.action.IA_SETTINGS" />
+            </intent-filter>
+            <meta-data
+                android:name="com.android.settings.category"
+                android:value="com.android.settings.category.ia.battery" />
+            <meta-data
+                android:name="com.android.settings.summary"
+                android:resource="@string/gpu_summary" />
+        </activity>
+
+        <activity
             android:name=".thermal.ThermalActivity"
             android:label="@string/thermal_title"
             android:icon="@drawable/ic_thermal_settings"

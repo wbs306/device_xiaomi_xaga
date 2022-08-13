@@ -125,5 +125,110 @@
         <item>1</item>
         <item>2</item>
         <item>3</item>
-    </string-array> 
+    </string-array>
+
+    <!-- Values for GPU governor -->
+    <string-array name="gpu_governor_entries" translatable="false">
+        <item>@string/gpu_governor_default</item>
+        <item>@string/gpu_governor_ondemand</item>
+        <item>@string/gpu_governor_performance</item>
+        <item>@string/gpu_governor_powersave</item>
+    </string-array>
+
+    <string-array name="gpu_governor_values" translatable="false">
+        <item>dummy</item>
+        <item>simple_ondemand</item>
+        <item>performance</item>
+        <item>powersave</item>
+    </string-array>
+
+    <!-- Values for GPU max frequency -->
+    <string-array name="gpu_max_frequency_entries" translatable="false">
+        <item>860MHz</item>
+        <item>852MHz</item>
+        <item>845MHz</item>
+        <item>837MHz</item>
+        <item>830MHz</item>
+        <item>822MHz</item>
+        <item>815MHz</item>
+        <item>807MHz</item>
+        <item>800MHz</item>
+        <item>773MHz</item>
+        <item>747MHz</item>
+        <item>721MHz</item>
+        <item>695MHz</item>
+        <item>668MHz</item>
+        <item>642MHz</item>
+        <item>616MHz</item>
+        <item>590MHz</item>
+        <item>572MHz</item>
+        <item>555MHz</item>
+        <item>538MHz</item>
+        <item>521MHz</item>
+        <item>504MHz</item>
+        <item>487MHz</item>
+        <item>470MHz</item>
+        <item>453MHz</item>
+        <item>436MHz</item>
+        <item>419MHz</item>
+        <item>402MHz</item>
+        <item>385MHz</item>
+        <item>368MHz</item>
+        <item>351MHz</item>
+        <item>334MHz</item>
+        <item>317MHz</item>
+        <item>304MHz</item>
+        <item>292MHz</item>
+        <item>280MHz</item>
+        <item>268MHz</item>
+        <item>255MHz</item>
+        <item>243MHz</item>
+        <item>231MHz</item>
+        <item>219MHz</item>
+    </string-array>
+
+    <string-array name="gpu_max_frequency_values" translatable="false">
+        <item>860000000</item>
+        <item>852000000</item>
+        <item>845000000</item>
+        <item>837000000</item>
+        <item>830000000</item>
+        <item>822000000</item>
+        <item>815000000</item>
+        <item>807000000</item>
+        <item>800000000</item>
+        <item>773000000</item>
+        <item>747000000</item>
+        <item>721000000</item>
+        <item>695000000</item>
+        <item>668000000</item>
+        <item>642000000</item>
+        <item>616000000</item>
+        <item>590000000</item>
+        <item>572000000</item>
+        <item>555000000</item>
+        <item>538000000</item>
+        <item>521000000</item>
+        <item>504000000</item>
+        <item>487000000</item>
+        <item>470000000</item>
+        <item>453000000</item>
+        <item>436000000</item>
+        <item>419000000</item>
+        <item>402000000</item>
+        <item>385000000</item>
+        <item>368000000</item>
+        <item>351000000</item>
+        <item>334000000</item>
+        <item>317000000</item>
+        <item>304000000</item>
+        <item>292000000</item>
+        <item>280000000</item>
+        <item>268000000</item>
+        <item>255000000</item>
+        <item>243000000</item>
+        <item>231000000</item>
+        <item>219000000</item>
+    </string-array>
+
 </resources>

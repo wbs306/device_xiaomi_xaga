@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2022 The LineageOS Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+
+    <!-- GPU -->
+    <string name="gpu_title">GPU 调校</string>
+    <string name="gpu_summary">调整GPU最高频率或调度</string>
+
+    <string name="gpu_governor">GPU 调度器</string>
+    <string name="gpu_governor_default">默认 (dummy)</string>
+    <string name="gpu_governor_ondemand">按需 (ondemand)</string>
+    <string name="gpu_governor_performance">性能 (performance)</string>
+    <string name="gpu_governor_powersave">省电 (powersave)</string>
+
+    <string name="gpu_max_frequency">GPU 最高频率</string>
+
+</resources>

@@ -22,3 +22,10 @@ android_app {
         proguard_flags_files: ["proguard.flags"],
     },
 }
+
+prebuilt_etc {
+    name: "gpu_optimizer.rc",
+    src: "gpu_optimizer.rc",
+    sub_dir: "init",
+    vendor: true,
+}
