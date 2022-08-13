@@ -188,6 +188,10 @@ persist.vendor.volte_support=1
 persist.vendor.vonr_setting_support=1
 ro.vendor.md_auto_setup_ims=1
 
+# MIUI Camera
+ro.miui.notch=1
+ro.product.mod_device=xaga_global
+
 # Netflix
 ro.netflix.bsp_rev=MTK6895-35027-1
 
