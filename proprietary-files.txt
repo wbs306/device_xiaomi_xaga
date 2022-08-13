@@ -1702,7 +1702,7 @@ vendor/etc/media_codecs_system_default.xml
 vendor/etc/media_profiles_V1_0.xml
 
 # MIUI Camera
--priv-app/MiuiCamera/MiuiCamera.apk;OVERRIDES=Snap,GoogleCameraGo
+-priv-app/MiuiCamera/MiuiCamera.apk;OVERRIDES=Snap,GoogleCameraGo,Camera2
 lib64/libcamera_algoup_jni.xiaomi.so
 lib64/libcamera_ispinterface_jni.xiaomi.so
 lib64/libcamera_mianode_jni.xiaomi.so
