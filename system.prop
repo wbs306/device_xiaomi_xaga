@@ -23,6 +23,7 @@ media.stagefright.thumbnail.prefer_hw_codecs=true
 # MIUI Camera
 ro.miui.notch=1
 ro.product.mod_device=xaga_global
+camera.lab.options=true
 
 # USB
 ro.sys.usb.bicr=no
