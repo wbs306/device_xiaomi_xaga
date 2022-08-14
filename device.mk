@@ -24,7 +24,8 @@ PRODUCT_COPY_FILES += \
 # MIUI Camera
 PRODUCT_SYSTEM_PROPERTIES += \
     ro.miui.notch=1 \
-    ro.product.mod_device=xaga_global
+    ro.product.mod_device=xaga_global \
+    camera.lab.options=true
 
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
