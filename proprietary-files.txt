@@ -60,3 +60,7 @@ lib64/libsysenv_system.so
 -priv-app/ImsService/ImsService.apk
 system_ext/lib/vendor.mediatek.hardware.videotelephony@1.0.so
 system_ext/lib64/vendor.mediatek.hardware.videotelephony@1.0.so
+
+# Vibrator
+vendor/bin/hw/vendor.xiaomi.hardware.vibratorfeature.service:product/vendor_overlay/31/bin/hw/vendor.xiaomi.hardware.vibratorfeature.service
+vendor/etc/vintf/manifest/vendor.xiaomi.hardware.vibratorfeature.service.xml:product/vendor_overlay/31/etc/vintf/manifest/vendor.xiaomi.hardware.vibratorfeature.service.xml
