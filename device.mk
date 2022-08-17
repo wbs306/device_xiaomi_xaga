@@ -195,8 +195,7 @@ PRODUCT_EXTRA_VNDK_VERSIONS := 31
 
 # Xiaomi Parts
 PRODUCT_PACKAGES += \
-    XiaomiParts \
-    gpu_optimizer.rc
+    XiaomiParts
 
 # Inherit the proprietary files
 $(call inherit-product, vendor/xiaomi/xaga/xaga-vendor.mk)
