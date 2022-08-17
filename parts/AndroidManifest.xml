@@ -63,11 +63,6 @@
             android:permission="XiaomiDozeService">
         </service>
 
-        <service
-            android:name=".thermal.ThermalService"
-            android:permission="ThermalService">
-        </service>
-
         <activity
             android:name=".doze.DozeSettingsActivity"
             android:label="@string/ambient_display_title"
@@ -93,25 +88,6 @@
             <meta-data
                 android:name="com.android.settings.summary"
                 android:resource="@string/gpu_summary" />
-        </activity>
-
-        <activity
-            android:name=".thermal.ThermalActivity"
-            android:label="@string/thermal_title"
-            android:icon="@drawable/ic_thermal_settings"
-            android:theme="@style/Theme.SubSettingsBase">
-            <intent-filter>
-                <action android:name="com.android.settings.action.IA_SETTINGS" />
-            </intent-filter>
-            <meta-data
-                android:name="com.android.settings.category"
-                android:value="com.android.settings.category.ia.battery" />
-            <meta-data
-                android:name="com.android.settings.summary"
-                android:resource="@string/thermal_summary" />
-            <meta-data
-                android:name="com.android.settings.icon"
-                android:resource="@drawable/ic_thermal_settings" />
         </activity>
 
         <activity
