@@ -225,7 +225,7 @@
          non-zero. -->
     <integer name="config_defaultPeakRefreshRate">145</integer>
 
-    <!-- Flag specifying whether VoLTE & VT is available on device -->
+   <!-- Flag specifying whether VoLTE & VT is available on device -->
     <bool name="config_device_volte_available">true</bool>
 
     <!-- Flag specifying whether VoLTE should be available for carrier: independent of
