@@ -20,6 +20,10 @@ ro.kernel.zio=38,108,105,16
 # Media
 media.stagefright.thumbnail.prefer_hw_codecs=true
 
+# MIUI Camera
+ro.miui.notch=1
+ro.product.mod_device=xaga_global
+
 # USB
 ro.sys.usb.bicr=no
 ro.sys.usb.charging.only=yes
