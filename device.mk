@@ -126,7 +126,8 @@ PRODUCT_PACKAGES += \
     FrameworkResOverlay \
     XagaProFrameworkResOverlay \
     TetheringOVerlay \
-    WifiOverlay
+    WifiOverlay \
+    SystemUIOverlay
 
 # Partitions
 PRODUCT_BUILD_SUPER_PARTITION := false

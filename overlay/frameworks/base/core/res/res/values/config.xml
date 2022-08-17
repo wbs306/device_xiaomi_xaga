@@ -17,9 +17,12 @@
 */
 -->
 
-<resources>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
-   <!-- the padding on the top of the statusbar (usually 0) -->
-   <dimen name="status_bar_padding_top">8dp</dimen>
+    <!-- Flag specifying whether or not IMS will use the ImsResolver dynamically -->
+    <bool name="config_dynamic_bind_ims">true</bool>
+
+    <!-- ImsService package name to bind to by default, if config_dynamic_bind_ims is true -->
+     <string name="config_ims_package">com.mediatek.ims</string>
 
 </resources>
