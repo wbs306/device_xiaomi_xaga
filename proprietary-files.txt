@@ -1706,6 +1706,7 @@ vendor/etc/media_profiles_V1_0.xml
 lib64/libcamera_algoup_jni.xiaomi.so
 lib64/libcamera_ispinterface_jni.xiaomi.so
 lib64/libcamera_mianode_jni.xiaomi.so
+lib64/libcameraservice.so
 lib64/libdoc_photo_c++_shared.so
 lib64/libdoc_photo.so
 lib64/libmotion_photo_c++_shared.so
