@@ -10,7 +10,7 @@ lib64/libaptX_encoder.so
 lib64/libaptXHD_encoder.so
 
 # MIUI Camera
--priv-app/MiuiCamera/MiuiCamera.apk;OVERRIDES=Snap,GoogleCameraGo,Camera2
+-priv-app/MiuiCamera/MiuiCamera.apk;OVERRIDES=Snap,GoogleCameraGo,Camera2|b27c18935950b542475e09c6e035de61461503ae
 lib64/libcamera_algoup_jni.xiaomi.so
 lib64/libcamera_ispinterface_jni.xiaomi.so
 lib64/libcamera_mianode_jni.xiaomi.so
