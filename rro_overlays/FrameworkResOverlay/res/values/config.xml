@@ -333,6 +333,10 @@
          -->
     <bool name="config_fillMainBuiltInDisplayCutout">false</bool>
 
+    <!-- Boolean indicating whether the HWC setColorTransform function can be performed efficiently
+         in hardware. -->
+    <bool name="config_setColorTransformAccelerated">true</bool>
+
 <!-- Doze -->
 
     <!-- If true, the doze component is not started until after the screen has been
