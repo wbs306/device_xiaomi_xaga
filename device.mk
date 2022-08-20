@@ -19,6 +19,8 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/emulated_storage.mk)
 # A/B
 $(call inherit-product, $(SRC_TARGET_DIR)/product/virtual_ab_ota/compression.mk)
 
+PRODUCT_TARGET_VNDK_VERSION := 31
+
 PRODUCT_PACKAGES += \
     update_engine \
     update_engine_sideload \
@@ -203,7 +205,6 @@ PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH)
 
 # VNDK
-PRODUCT_TARGET_VNDK_VERSION := 31
 PRODUCT_EXTRA_VNDK_VERSIONS := 31
 
 # Xiaomi Parts
