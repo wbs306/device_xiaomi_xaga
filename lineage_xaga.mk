@@ -8,14 +8,14 @@
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
-# Inherit common Kaleidoscope configurations
-$(call inherit-product, vendor/kscope/target/product/mobile.mk)
+# Inherit some common LineageOS stuff
+$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
 # Inherit from xaga device
 $(call inherit-product, device/xiaomi/xaga/device.mk)
 
 PRODUCT_DEVICE := xaga
-PRODUCT_NAME := kscope_xaga
+PRODUCT_NAME := lineage_xaga
 PRODUCT_BRAND := Redmi
 PRODUCT_MODEL := Redmi Note11T Pro
 PRODUCT_MANUFACTURER := Xiaomi

@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/kscope_xaga.mk
+    $(LOCAL_DIR)/lineage_xaga.mk
 
 COMMON_LUNCH_CHOICES := \
-    kscope_xaga-user \
-    kscope_xaga-userdebug \
-    kscope_xaga-eng
+    lineage_xaga-user \
+    lineage_xaga-userdebug \
+    lineage_xaga-eng
