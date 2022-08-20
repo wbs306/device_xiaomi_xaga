@@ -1,0 +1,2 @@
+persist.vendor.log.tel_dbg   u:object_r:system_mtk_em_tel_log_prop:s0
+vendor.ril.imsconfig.force.notify u:object_r:system_mtk_imsconfig_prop:s0

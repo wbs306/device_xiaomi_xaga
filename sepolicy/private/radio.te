@@ -1,0 +1,9 @@
+get_prop(radio, system_mtk_em_tel_log_prop)
+
+get_prop(radio, system_mtk_imsconfig_prop)
+set_prop(radio, system_mtk_imsconfig_prop)
+
+allow radio vtservice_service:service_manager find;
+allow radio mtk_phonesubinfo_service:service_manager { add find };
+allow radio mtk_simphonebook_service:service_manager { add find };
+allow radio mtk_radio_service:service_manager { add find };
