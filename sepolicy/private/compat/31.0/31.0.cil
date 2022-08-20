@@ -1,0 +1,3 @@
+(typeattributeset vtservice_31_0 (vtservice))
+(expandtypeattribute (vtservice_31_0) true)
+(typeattribute vtservice_31_0)

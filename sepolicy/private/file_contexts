@@ -3,5 +3,8 @@
 /(product|system/product)/vendor_overlay/[0-9]+/lib(64)?/hw    u:object_r:vendor_hal_file:s0
 /(product|system/product)/vendor_overlay/[0-9]+/overlay(/.*)?  u:object_r:vendor_overlay_file:s0
 
+# VTService
+/system/bin/vtservice      u:object_r:vtservice_exec:s0
+
 # Vibrator
 /(product|system/product)/vendor_overlay/[0-9]+/bin/hw/vendor\.xiaomi\.hardware\.vibratorfeature\.service u:object_r:hal_vibrator_default_exec:s0

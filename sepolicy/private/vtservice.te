@@ -1,0 +1,19 @@
+type vtservice, domain;
+type vtservice_exec, file_type, exec_type, system_file_type;
+type vtservice_service, service_manager_type;
+type vtservice_hidl_service, service_manager_type;
+
+typeattribute vtservice coredomain;
+
+binder_service(vtservice)
+init_daemon_domain(vtservice)
+domain_auto_trans(init, vtservice_exec, vtservice)
+
+binder_use(vtservice)
+hwbinder_use(vtservice)
+binder_call(vtservice, mediaserver)
+
+allow vtservice radio_service:service_manager find;
+allow vtservice vtservice_service:service_manager add;
+
+get_prop(vtservice, hwservicemanager_prop)
