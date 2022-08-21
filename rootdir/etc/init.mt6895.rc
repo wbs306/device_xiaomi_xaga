@@ -1,5 +1,5 @@
 on early-init
-    start set_permissive
+    write /sys/fs/selinux/enforce 1
 
 on property:persist.sys.parts.gpu.governor=*
     write /sys/devices/platform/13000000.mali/devfreq/13000000.mali/governor ${persist.sys.parts.gpu.governor}
@@ -9,9 +9,3 @@ on property:persist.sys.parts.gpu.max_frequency=*
 
 on property:persist.sys.MT6895.dt2w=*
     exec /system/bin/xiaomi-touch 14 ${persist.sys.MT6895.dt2w}
-
-service set_permissive /system/bin/set_permissive.sh
-    class main
-    user root
-	seclabel u:r:su:s0
-    disabled

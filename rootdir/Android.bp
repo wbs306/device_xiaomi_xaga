@@ -4,11 +4,6 @@
 // SPDX-License-Identifier: Apache-2.0
 //
 
-sh_binary {
-    name: "set_permissive.sh",
-    src: "bin/set_permissive.sh"
-}
-
 prebuilt_etc {
     name: "fstab.mt6895",
     src: "etc/fstab.mt6895",
