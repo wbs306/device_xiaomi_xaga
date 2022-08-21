@@ -163,13 +163,17 @@ DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay-kscope
 
 PRODUCT_PACKAGES += \
-    FrameworkResOverlay \
+    XagaFrameworkResOverlay \
     XagaProFrameworkResOverlay \
     TetheringOVerlay \
     WifiOverlay \
     SystemUIOverlay \
     XagaProInFrameworkResOverlay \
     SettingsOverlay
+
+PRODUCT_PACKAGES += \
+    FrameworkResOverlay \
+    FrameworkResOverlayExt
 
 # Partitions
 PRODUCT_BUILD_SUPER_PARTITION := false
