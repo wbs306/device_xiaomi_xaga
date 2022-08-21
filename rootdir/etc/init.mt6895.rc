@@ -1,9 +1,6 @@
 on early-init
     start set_permissive
 
-on post-fs
-    mount none /system/bin/hw/android.hardware.lights-service.xiaomi_mt6895 /vendor/bin/hw/android.hardware.lights-service.mediatek bind
-
 on property:persist.sys.parts.gpu.governor=*
     write /sys/devices/platform/13000000.mali/devfreq/13000000.mali/governor ${persist.sys.parts.gpu.governor}
 
