@@ -7,5 +7,8 @@ on property:persist.sys.parts.gpu.governor=*
 on property:persist.sys.parts.gpu.max_frequency=*
     write /sys/devices/platform/13000000.mali/devfreq/13000000.mali/max_freq ${persist.sys.parts.gpu.max_frequency}
 
-on property:persist.sys.MT6895.dt2w=*
+on property:dev.bootcomplete=1
+    chmod 0666 /dev/xiaomi-touch
+
+on property:dev.bootcomplete=1 && property:persist.sys.MT6895.dt2w=*
     exec /system/bin/xiaomi-touch 14 ${persist.sys.MT6895.dt2w}
