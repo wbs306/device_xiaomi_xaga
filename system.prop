@@ -5,7 +5,6 @@ ro.camera.sound.forced=0
 
 # Bluetooth
 persist.bluetooth.bluetooth_audio_hal.disabled=true
-persist.bluetooth.a2dp_offload.disabled=true
 
 # Brand
 Build.BRAND=MTK

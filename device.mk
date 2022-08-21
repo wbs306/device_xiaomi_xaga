@@ -63,6 +63,10 @@ PRODUCT_PACKAGES += \
     android.hardware.soundtrigger@2.1 \
     android.hardware.soundtrigger@2.2
 
+# Bluetooth
+PRODUCT_PRODUCT_PROPERTIES += \
+    persist.bluetooth.a2dp_offload.disabled=true
+
 # Boot control HAL
 PRODUCT_PACKAGES += \
     android.hardware.boot@1.2-impl \
