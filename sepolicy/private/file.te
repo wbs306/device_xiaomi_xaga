@@ -1,0 +1,1 @@
+type sysfs_devfreq_file, fs_type, sysfs_type;
