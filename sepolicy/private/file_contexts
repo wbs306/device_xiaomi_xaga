@@ -1,3 +1,7 @@
+# GPU
+/sys/devices/platform/13000000.mali/devfreq/13000000.mali/governor  u:object_r:sysfs_devfreq_file:s0
+/sys/devices/platform/13000000.mali/devfreq/13000000.mali/max_freq  u:object_r:sysfs_devfreq_file:s0
+
 # Lights
 /system/bin/hw/android\.hardware\.lights-service\.mediatek u:object_r:hal_light_default_exec:s0
 /(product|system/product)/vendor_overlay/[0-9]+/bin/hw/android\.hardware\.lights-service\.mediatek u:object_r:hal_light_default_exec:s0

@@ -6,3 +6,6 @@ allow init vendor_configs_file:file mounton;
 
 # Allow init to mount vendor overlay
 allow init vendor_overlay_file:dir mounton;
+
+# Allow init to set governor and frequency
+allow init sysfs_devfreq_file:file rw_file_perms;
