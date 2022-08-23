@@ -40,6 +40,8 @@ static const std::string led_paths[] {
     [WHITE] = LED_PATH("white"),
 };
 
+static const std::string brightness_clone_path = "/sys/devices/virtual/mi_display/disp_feature/disp-DSI-0/brightness_clone";
+
 #define AutoHwLight(light) {.id = (int)light, .type = light, .ordinal = 0}
 
 // List of supported lights
@@ -95,6 +97,7 @@ void Lights::handleBacklight(const HwLightState& state) {
     uint32_t sentBrightness = RgbaToBrightness(state.color);
     uint32_t brightness = sentBrightness * maxBrightness / LED_BRIGHTNESS;
     WriteToFile((led_paths[BACKLIGHT] + "brightness").c_str(), brightness);
+    WriteToFile((brightness_clone_path).c_str(), brightness);
 }
 
 // device methods

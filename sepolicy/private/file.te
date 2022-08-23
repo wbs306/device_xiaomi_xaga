@@ -1,1 +1,3 @@
 type sysfs_devfreq_file, fs_type, sysfs_type;
+
+type vendor_sysfs_displayfeature, fs_type, sysfs_type;
