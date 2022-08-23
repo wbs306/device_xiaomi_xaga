@@ -267,7 +267,7 @@
          -2 is invalid so setting will resort to int value specified above.
          Set this to 0.0 to allow screen to go to minimal brightness.
          The user is forbidden from setting the brightness below this level. -->
-    <integer name="config_screenBrightnessSettingMinimum">8</integer>
+    <integer name="config_screenBrightnessSettingMinimum">2</integer>
 
     <!-- Array of hysteresis constraint values for brightening, represented as tenths of a
          percent. The length of this array is assumed to be one greater than
