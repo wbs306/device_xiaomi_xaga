@@ -1,3 +1,6 @@
+# FM Radio
+/dev/fm(/.*)?       u:object_r:fm_device:s0
+
 # GPU
 /sys/devices/platform/13000000.mali/devfreq/13000000.mali/governor  u:object_r:sysfs_devfreq_file:s0
 /sys/devices/platform/13000000.mali/devfreq/13000000.mali/max_freq  u:object_r:sysfs_devfreq_file:s0
