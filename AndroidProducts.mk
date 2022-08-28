@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aosp_xaga.mk
+    $(LOCAL_DIR)/kscope_xaga.mk
 
 COMMON_LUNCH_CHOICES := \
-    aosp_xaga-user \
-    aosp_xaga-userdebug \
-    aosp_xaga-eng
+    kscope_xaga-user \
+    kscope_xaga-userdebug \
+    kscope_xaga-eng

@@ -29,7 +29,7 @@ PRODUCT_SYSTEM_PROPERTIES += \
 
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
-    $(LOCAL_PATH)/overlay-aosp
+    $(LOCAL_PATH)/overlay-kscope
 
 PRODUCT_PACKAGES += \
     FrameworkResOverlay \
