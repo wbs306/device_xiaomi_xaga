@@ -248,6 +248,8 @@ ro.vendor.wlan.chrdev=wmt_chrdev_wifi_connac2
 ro.vendor.wlan.gen=gen4m_6895
 ro.vendor.wlan.standalone.log=y
 ro.vendor.mtk_wfd_support=1
+ro.hardware.wlan.vendor=mediatek
+ro.hardware.wlan.chip=mt663x
 
 dalvik.vm.mtk-stack-trace-file=/data/anr/mtk_traces.txt
 debug.mediatek.appgamepq_compress=1
@@ -452,3 +454,5 @@ vendor.debug.sf.cpupolicy.xgf_min=25
 vendor.displayfeature.entry.enable=true
 vendor.hbm.enable=true
 vendor.mtk.vdec.waitkeyframeforplay=9
+vendor.performance.frs.temp_src=/sys/class/thermal/thermal_message/board_sensor_temp
+ro.vendor.mtk_thermal_2_0=1
