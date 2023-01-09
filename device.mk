@@ -28,9 +28,6 @@ PRODUCT_SYSTEM_PROPERTIES += \
     camera.lab.options=true
 
 # Overlays
-DEVICE_PACKAGE_OVERLAYS += \
-    $(LOCAL_PATH)/overlay-kscope
-
 PRODUCT_PACKAGES += \
     FrameworkResOverlay \
     XagaProFrameworkResOverlay \
