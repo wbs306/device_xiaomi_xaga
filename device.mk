@@ -35,6 +35,9 @@ PRODUCT_PACKAGES += \
     XagaProInFrameworkResOverlay \
     SettingsOverlay
 
+PRODUCT_PACKAGES += \
+    DerpSettingsOverlay
+
 # Recovery
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/prebuilts/modules/modules.load.recovery:recovery/root/lib/modules/modules.load.recovery
