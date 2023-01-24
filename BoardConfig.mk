@@ -9,6 +9,9 @@
 
 DEVICE_PATH := device/xiaomi/xaga
 
+# Assert
+TARGET_OTA_ASSERT_DEVICE := xaga,xagapro,xagain,xagaproin
+
 # Bootloader
 TARGET_BOOTLOADER_BOARD_NAME := xaga
 
