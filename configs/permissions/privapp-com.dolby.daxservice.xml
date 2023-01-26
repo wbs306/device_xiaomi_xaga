@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--Copyright (C) 2018 Dolby Laboratories
+ *  This program is protected under international and U.S. copyright laws as
+ *  an unpublished work. This program is confidential and proprietary to the
+ *  copyright owners. Reproduction or disclosure, in whole or in part, or the
+ *  production of derivative works therefrom without the express permission of
+ *  the copyright owners is prohibited.
+ *                 Copyright (C) 2018-2019 by Dolby Laboratories.
+ *                             All rights reserved.
+-->
+
+<permissions>
+    <privapp-permissions package="com.dolby.daxservice">
+        <!-- Read the contents of your shared storage -->
+        <permission name="android.permission.READ_EXTERNAL_STORAGE" />
+        <!-- Modify or delete the contents of your shared storage -->
+        <permission name="android.permission.WRITE_EXTERNAL_STORAGE" />
+        <!-- Pair with Bluetooth devices -->
+        <permission name="android.permission.BLUETOOTH" />
+        <!-- Change your audio settings -->
+        <permission name="android.permission.MODIFY_AUDIO_SETTINGS" />
+        <permission name="android.permission.INTERACT_ACROSS_USERS" />
+        <permission name="android.permission.INTERACT_ACROSS_USERS_FULL" />
+        <permission name="android.permission.MANAGE_USERS" />
+        <!-- This app can appear on top of other apps -->
+        <permission name="android.permission.SYSTEM_ALERT_WINDOW" />
+        <permission name="android.permission.SUBSTITUTE_NOTIFICATION_APP_NAME" />
+        <permission name="android.permission.WRITE_SECURE_SETTINGS" />
+        <!-- Query all packages -->
+        <permission name="android.permission.QUERY_ALL_PACKAGES" />
+        <permission name="android.permission.BIND_QUICK_SETTINGS_TILE" />
+        <!-- Other Permissions -->
+        <permission name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    </privapp-permissions>
+</permissions>
