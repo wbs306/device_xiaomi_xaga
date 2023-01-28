@@ -401,7 +401,7 @@ lib64/libcameraservice.so
 lib64/libcamera_client.so
 lib64/libmtkisp_metadata_sys.so
 lib64/vendor.mediatek.hardware.camera.isphal@1.0.so
--product/priv-app/MiuiCamera/MiuiCamera.apk:system/priv-app/MiuiCamera/MiuiCamera.apk;OVERRIDES=Snap,GoogleCameraGo,Camera2
+-product/priv-app/MiuiCamera/MiuiCamera.apk:system/priv-app/MiuiCamera/MiuiCamera.apk;OVERRIDES=Snap,GoogleCameraGo,Camera2,Aperture
 system_ext/lib64/libcameraimpl.so
 system_ext/lib64/libopencl-camera.so
 system_ext/lib64/vendor.mediatek.hardware.camera.atms@1.0.so
