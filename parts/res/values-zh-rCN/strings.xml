@@ -5,6 +5,10 @@
 -->
 <resources>
 
+    <!-- Dolby -->
+    <string name="dolby_title">杜比全景声</string>
+    <string name="dolby_summary">设置杜比全景声</string>
+
     <!-- GPU -->
     <string name="gpu_title">GPU 调校</string>
     <string name="gpu_summary">调整GPU最高频率或调度</string>

@@ -69,6 +69,10 @@
     <string name="music_headset_scenario_video">Video</string>
     <string name="music_headset_scenario_vocal">Voice</string>
 
+    <!-- Dolby -->
+    <string name="dolby_title">Dolby Atmos</string>
+    <string name="dolby_summary">Setting Dolby Atmos</string>
+
     <!-- GPU -->
     <string name="gpu_title">GPU Optimizer</string>
     <string name="gpu_summary">Adjust GPU governor or limit GPU maximum frequency</string>
