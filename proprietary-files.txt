@@ -398,9 +398,12 @@ lib64/libcamera_algoup_jni.xiaomi.so
 lib64/libcamera_ispinterface_jni.xiaomi.so
 lib64/libcamera_mianode_jni.xiaomi.so
 lib64/libcameraservice.so
+lib64/libcamera_client.so
 lib64/libmtkisp_metadata_sys.so
 lib64/vendor.mediatek.hardware.camera.isphal@1.0.so
 -product/priv-app/MiuiCamera/MiuiCamera.apk;OVERRIDES=Snap,GoogleCameraGo,Camera2|b27c18935950b542475e09c6e035de61461503ae
+system_ext/lib64/libcameraimpl.so
+system_ext/lib64/libopencl-camera.so
 system_ext/lib64/vendor.mediatek.hardware.camera.atms@1.0.so
 
 # Miscellaneous
