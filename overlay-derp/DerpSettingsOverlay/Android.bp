@@ -1,6 +1,0 @@
-runtime_resource_overlay {
-    name: "DerpSettingsOverlay",
-    theme: "DerpSettingsOverlay",
-    sdk_version: "current",
-    vendor: true
-}
